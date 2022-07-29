@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>SK_JS</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="logo"><a>LOGO</a></li>
+            <li class="nav_item"><a>Главная</a></li>
+            <li class="nav_item"><a>Реестр собраний</a></li>
+            <li class="nav_item"><a>Помощь</a></li>
+            <li class="nav_item"><a>Контакты</a></li>
+            <li class="nav_item"><button class="nav_btn">Войти</button></li>
+            <li class="nav_item"><a>Зарегистрироваться</a></li>
+        </ul>
+    </div>
+    <div class="viewport">
+        <div class="login_container">
+            <div class="login_block">
+                <h2>Проводим собрания кредиторов в электронном формате</h2>
+                <p class="login_text">Организация собраний кредиторов в Online и Offline режимах. Быстрый и удобный способ проведения собрания без лишних затрат</p>
+                <button class="signin">Войти</button>
+                <a class="signup" href="#">Зарегистрироваться</a>
+            </div>
+            <div class="info_block">
+                <div class="info_item_1">
+                    <p class="color_text">01 /</p>
+                    <p class="p_heading">Тех. поддержка</p>
+                    <p class="main_text">Наша поддержка поможет Вам настроить рабочее место,  а также проконсультирует о порядке проведения собрания на ЭТП</p>
+                </div>
+                <div class="info_item_2">
+                    <p class="color_text">02 /</p>
+                    <p class="p_heading">Автоматизация</p>
+                    <p class="main_text">Подсчет голосов кредиторов происходит автоматически, также составляются протоколы и рассылаются уведомления участникам собрания</p>
+                </div>
+                <div class="info_item_3">
+                    <p class="color_text">03 /</p>
+                    <p class="p_heading">Видеосвязь и чат</p>
+                    <p class="main_text">Мы даем возможность провести собрания кредиторов с использованием видеосвязи и чата как для организаторов, так и для участников собрания</p>
+                </div>
+                <div class="info_item_4">
+                    <p class="color_text">04 /</p>
+                    <p class="p_heading">Доступ 24/7</p>
+                    <p class="main_text">Вся информация о проведенных собраниях хранится в личном кабинете. Вам предоставляется круглосуточный доступ к данной информации</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="heading">Реестр собраний</h2>
+
+    <div class="stats">
+        <ul>
+            <li class="stats_head">Общая статистика</li>
+            <li class="stats_item">Участников: <b>0</b></li>
+            <li class="stats_item">Организаторов: <b>0</b></li>
+            <li class="stats_item">Проведено собраний: <b>0</b></li>
+            <li class="stats_item"><a  class="stats_btn"><b>Найти</b></a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <p class="sort">Сортировать по <b>номеру</b></p>
+
+    <div class="table">
+        <div class="table_item"></div>
+    </div>
+    <script src="jquery/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
