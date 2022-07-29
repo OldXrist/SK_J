@@ -1,0 +1,51 @@
+.menu {
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(90.63deg, #67C8D4 6%, #004781 45.78%);
+  height: 82px;
+  padding: 0;
+  padding-right: 120px;
+  z-index: 999;
+  overflow: visible;
+  text-align: center;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 136.5%;
+  /* or 20px */
+
+
+  color: #FFFFFF;
+}
+
+.logo {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  top: 11.88%;
+  bottom: 50.93%;
+  padding: 0;
+  padding-right: 54px;
+
+}
+
+.nav_item {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  padding-top: 21px;
+  padding-right: 20px;
+  left: 54px;
+}
+
+.nav_btn {
+  margin-left: 437px;
+  background: #37DCF5;
+  border-radius: 10px;
+  color: #000000;
+  width: 100px;
+  height: 36px;
+  border: none;
+  text-decoration: none;
+}
