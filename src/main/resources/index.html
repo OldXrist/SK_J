@@ -72,11 +72,6 @@
             <div>
                 <p class="drop_h">Поиск собрания</p>
                 <img src="/img/cross.png" class="cross" />
-                <ul class="sort_drop">
-                    <li><a href="#">номеру</a></li>
-                    <li><a href="#">дате добавления</a></li>
-                    <li><a href="#">статусу</a></li>
-                </ul>
             </div>
             <ul class="form_gr1">
                 <li class="form_text">Номер собрания</li>
@@ -106,7 +101,12 @@
             <input type="submit" value="Поиск" class="srch_btn" />
         </form>
 
-        <p class="sort">Сортировать по <b>номеру</b><img src="/img/down_arrow.svg" /></p>
+        <p class="sort">Сортировать по <b>номеру</b><img src="/img/down_arrow.svg" class="arrw"/></p>
+        <ul class="sort_drop">
+            <li>номеру</li>
+            <li>дате добавления</li>
+            <li>статусу</li>
+        </ul>
 
         <div class="table">
             <div class="table_item">
@@ -258,6 +258,13 @@
     });
     $(document).ready(function () {
         $(".stats_btn").click(function () {
+            $(".sort_drop").animate({
+                top: "1573px"
+            });
+        });
+    });
+    $(document).ready(function () {
+        $(".stats_btn").click(function () {
             $(".base").animate({
                 top: "2333px"
             });
@@ -270,6 +277,7 @@
             });
         });
     });
+
     $(document).ready(function () {
         $(".cross").click(function () {
             $(".dropdown").slideUp();
@@ -291,6 +299,13 @@
     });
     $(document).ready(function () {
         $(".cross").click(function () {
+            $(".sort_drop").animate({
+                top: "986px"
+            });
+        });
+    });
+    $(document).ready(function () {
+        $(".cross").click(function () {
             $(".base").animate({
                 top: "1748px"
             });
@@ -300,6 +315,27 @@
         $(".cross").click(function () {
             $(".base_bg").animate({
                 top: "1748px"
+            });
+        });
+    });
+    $(document).ready(function () {
+        $(".sort_drop").hide()
+    })
+    $(document).ready(function(){
+        $(".arrw").click(function(){
+            $(".sort_drop").slideDown()
+        }).click(function(){
+            $(".table").animate({
+                opacity: "0.3"
+            });
+        });
+    });
+    $(document).ready(function(){
+        $(".sort_drop li").click(function(){
+            $(".sort_drop").slideUp()
+        }).click(function(){
+            $(".table").animate({
+                opacity: "1"
             });
         });
     });
