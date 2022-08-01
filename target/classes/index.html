@@ -107,7 +107,7 @@
             <li>дате добавления</li>
             <li>статусу</li>
         </ul>
-
+        <div class="fade"></div>
         <div class="table">
             <div class="table_item">
                 <h3 class="table_h">1013 Очное</h3>
@@ -331,8 +331,17 @@
         });
     });
     $(document).ready(function(){
-        $(".sort_drop li").click(function(){
+        $(".sort_drop").mouseleave(function(){
             $(".sort_drop").slideUp()
+        }).mouseleave(function(){
+            $(".table").animate({
+                opacity: "1"
+            });
+        });
+    });
+    $(document).ready(function(){
+        $(".sort_drop li").click(function(){
+            $(".sort_drop").slideToggle()
         }).click(function(){
             $(".table").animate({
                 opacity: "1"
