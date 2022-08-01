@@ -1,13 +1,607 @@
-.menu {
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.viewport {
   position: absolute;
   width: 100%;
-  background: linear-gradient(90.63deg, #67C8D4 6%, #004781 45.78%);
-  height: 82px;
+  left: 0;
+  height: 650px;
+  top: -5px;
+  background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.3) 4.43%, rgba(0, 71, 129, 0.3) 47.8%), url(/img/back.png);
+  background-size:100%;
+  background-attachment: fixed;
+}
+
+.login_container {
+  position: absolute;
+  margin-left: 40px;
+  top: 165px;
+  height: 378px;
+}
+
+.login_block {
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  width: 660px;
+  height: 378px;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+}
+
+h2 {
+  position: absolute;
+  width: 532px;
+  height: 76px;
+  left: 60px;
+  top: 48px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #104781;
+}
+.login_text {
+  position: absolute;
+  width: 447px;
+  height: 75px;
+  left: 64px;
+  top: 154px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #104781;
+}
+
+.signin {
+  position: absolute;
+  width: 160px;
+  height: 55px;
+  left: 60px;
+  top: 269px;
+  border: none;
+  border-radius: 10px;
+  background: #37DCF5;
+  color: #00345F;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.signup {
+  text-decoration: none;
+  position: absolute;
+  width: 176px;
+  height: 18px;
+  left: 240px;
+  top: 287px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+
+  color: #104781;
+}
+
+.info_block {
+  position: absolute;
+  height: 378px;
+  width: 500px;
+  left: 700px;
+  top: 15px;
   padding: 0;
-  padding-right: 120px;
+  padding-left: 40px;
+}
+
+.info_item_1 {
+  position: absolute;
+  width: 205px;
+  height: 90px;
+}
+
+.info_item_2 {
+  position: absolute;
+  width: 205px;
+  height: 90px;
+  left: 242px;
+  padding-left: 40px;
+}
+
+.info_item_3 {
+  position: absolute;
+  width: 205px;
+  height: 90px;
+  top: 147px;
+}
+
+.info_item_4 {
+  position: absolute;
+  width: 205px;
+  height: 90px;
+  left: 242px;
+  top: 147px;
+  padding-left: 40px;
+}
+
+.color_text {
+  width: 36px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  margin-top: 35px;
+  /* identical to box height, or 18px */
+
+
+  color: #37DCF5;
+}
+
+.p_heading {
+  position: absolute;
+  padding-left: 40px;
+  bottom: 20px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+
+  color: #FFFFFF;
+}
+
+.main_text {
+  position: absolute;
+  width: 218px;
+  height: 90px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  /* or 18px */
+
+
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.heading {
+  position: absolute;
+  width: 266px;
+  height: 38px;
+  top: 740px;
+  margin-left: 40px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+
+  color: #104781;
+}
+
+.stats {
+  position: absolute;
+  width: 1160px;
+  height: 90px;
+  top: 828px;
+  margin-left: 40px;
+  background: #BAF3FC;
+  border-radius: 15px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+  color: #406C9A;
+  text-align: center;
+  padding-bottom: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.stats_head {
+  display: inline-block;
+  list-style: none;
+  font-weight: 600;
+  margin-right: 137px;
+}
+
+.stats_item {
+  display: inline-block;
+  list-style: none;
+  margin-top: 36px;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+.stats_btn {
+  text-decoration: none;
+  font-weight: 600;
+  color: #406C9A;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  width: 1160px;
+  height: 557px;
+  top: 948px;
+  margin-left: 40px;
+  background: #BAF3FC;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding-left: 44px;
+  padding-bottom: 51px;
+}
+
+.table {
+  position: absolute;
+  margin-left: 40px;
+  height: 678px;
+  width: 1160px;
+  top: 996px;
+}
+
+.table_item {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 1160px;
+  height: 150px;
+  background-color: rgba(186, 243, 252, 0.3);
+  border: 1px solid rgba(186, 243, 252, 0.5);
+  box-shadow: 0px 6px 12px rgba(16, 71, 129, 0.1);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.sort {
+  position: absolute;
+  padding-bottom: 30px;
+  width: 235px;
+  height: 18px;
+  margin-left: 60px;
+  top: 948px;
+  margin-left: 100px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+
+  color: #104781;
+}
+
+.sort img {
+  margin-left: 10px;
+}
+
+.stats_btn img {
+  margin-left: 10px;
+}
+
+.table_h {
+  position: absolute;
+  padding: 0;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #104781;
+  width: 101px;
+  height: 18px;
+  left: 60px;
+  top: 25px;
+
+}
+
+.table_data {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  width: fit-content;
+  padding-left: 0;
+  height: 40px;
+  left: 53px;
+  top: 75px;
+  margin-right: 75px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+
+  color: #104781;
   z-index: 999;
   overflow: visible;
+}
+
+.thin_text {
+  padding-bottom: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+
+  color: #406C9A;
+}
+
+.vl {
+  position: absolute;
+  height: 110px;
+  width: 1px;
+  left: 871px;
+  top: 20px;
+  opacity: 0.4;
+  margin-right: 50px;
+  background: #104781;
+}
+
+.date {
+  position: absolute;
+  width: 309px;
+  height: 150px;
+  top: 18px;
+}
+
+.datetime {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 0;
+  left: 896px;
+  list-style: none;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  color: #104781;
+}
+
+.cross {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 1080px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.form_gr1 {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 30px;
+  margin-top: 97px;
+  padding: 0;
+}
+
+.form_gr1 li input {
+  width: 400px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  border: none;
+  color: #406C9A;
+}
+
+.form_gr2 {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.form_gr2 li input {
+  width: 590px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  border: none;
+  color: #406C9A;
+}
+
+.form_text {
+  margin-bottom: 20px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+
+  color: #406C9A;
+}
+
+.dropdown div p {
+  position: absolute;
+  width: 139px;
+  height: 18px;
+  left: 44px;
+  top: 49px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+  color: #104781;
+  margin-bottom: 30px;
+}
+
+.form3 {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.form3 li input {
+  width: 1040px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  border: none;
+  color: #406C9A;
+}
+
+:focus {
+  outline: none;
+}
+
+.placeh {
+  padding-left: 17px;
+}
+
+.form_gr3 {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.form_gr3 li input {
+  width: 146px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  border: none;
+  color: #406C9A;
+}
+
+.form_gr3 li a {
+  padding-right: 17px;
+}
+
+.date_f {
+  display: inline-block;
+  padding-right: 17px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+
+  color: #406C9A;
+}
+
+.form_gr4 {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.form_gr4 li input {
+  width: 270px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  border: none;
+  color: #406C9A;
+}
+
+.srch_btn {
+  position: relative;
+  width: 160px;
+  height: 55px;
+  background: #37DCF5;
+  border-radius: 10px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
   text-align: center;
+  color: #00345F;
+  border: none;
+  margin-left: 444px;
+  margin-bottom: 51px;
+}
+
+content {
+  width: 100%;
+}
+
+.base {
+  position: absolute;
+  width: 1160px;
+  height: 298px;
+  top: 1746px;
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 400;
@@ -16,35 +610,64 @@
   color: #FFFFFF;
 }
 
-.logo {
+.base_logo {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  width: 186.67px;
+  height: 28px;
+  margin-left: 10px;
+  top: 60px;
+}
+
+.base_item1 {
   display: inline-block;
   list-style: none;
   position: relative;
-  top: 11.88%;
-  bottom: 50.93%;
-  padding: 0;
-  padding-right: 54px;
-
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  margin-left: 1120px;
+  top: 74px;
 }
 
-.nav_item {
+.base_item2 {
   display: inline-block;
   list-style: none;
   position: relative;
-  padding-top: 21px;
-  padding-right: 20px;
-  left: 54px;
+  text-align: center;
+  margin-right: 20px;
+  top: 118px;
 }
 
-.nav_btn {
-  margin-left: 437px;
-  background: #37DCF5;
-  border-radius: 10px;
-  color: #000000;
-  width: 100px;
-  height: 36px;
-  border: none;
-  text-decoration: none;
+.copyright {
+  position: absolute;
+  width: 458px;
+  height: 40px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-left: 400px;
+  top: 168px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.base_links {
+  margin-left: 410px;
+}
+
+.base_bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 298px;
+  top: 1746px;
+  bottom: 0;
+  background: #104781;
 }
 
 .sort_drop {
