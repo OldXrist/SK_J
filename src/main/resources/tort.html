@@ -22,99 +22,107 @@
         </ul>
     </div>
 
+    <div class="ogl">
+
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Главная</a></li>
-            <li class="breadcrumb-item"><a href="#">Регистрация нового пользователя</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Участник собрания (Юридическое лицо)</li>
+            <li class="breadcrumb-item"><a href="#">Библиотека</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Данные</li>
         </ol>
     </nav>
+    </div>
 
 
 
-
-    <p class="fw-bold">Регистрация участника ЮЛ</p>
-
-
-    <p class="login_text">Для регистрации на электронной площадке Вам следует заполнить приведённую ниже форму. По результатам рассмотрения заявления Вам будет направлено уведомление на указанный в форме адрес электронной почты.
-
-                    Внимание! Перед регистрацией Вам следует убедиться, что у вас настроены средства ЭП в соответствии с руководством. Вы регистрируетесь как участник собрания (Юридическое лицо). </p>
+    <p class="reg_uch">Регистрация участника ЮЛ</p>
 
 
+    <div class="reg_uch_txt">Для регистрации на электронной площадке Вам следует заполнить приведённую ниже форму. По результатам рассмотрения заявления Вам будет направлено уведомление на указанный в форме адрес электронной почты.
+<p>
+    </p>
 
-            <p class="fw-bold">Заявления</p>
+        Внимание! Перед регистрацией Вам следует убедиться, что у вас настроены средства ЭП в соответствии с руководством. Вы регистрируетесь как участник собрания (Юридическое лицо). </div>
 
+
+
+            <p class="zaiav">Заявления</p>
+
+    <div class="gal">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                <label class="form-check-label" for="flexCheckDefault1">
+                <input class="kub1" type="checkbox" value="" id="flexCheckDefault1">
+                <label class="gal_txt1" for="flexCheckDefault1">
                     Прошу зарегистрировать меня в качестве участника собрания кредиторов*
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                <label class="form-check-label" for="flexCheckDefault2">
+                <input class="kub2" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="gal_txt2" for="flexCheckDefault2">
                     Настоящим сообщаю об ознакомлении и согласии с правилами, содержащимися в Регламенте электронной площадки*
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                <label class="form-check-label" for="flexCheckDefault3">
+                <input class="kub3" type="checkbox" value="" id="flexCheckDefault3">
+                <label class="gal_txt3" for="flexCheckDefault3">
                     Настоящим подтверждаю свое согласие на обработку персональных данных необходимых для регистрации на электронной площадке*                </label>
             </div>
+    </div>
 
             <form class="table1">
 
-                <p class="info_ob">Информация об участнике собрания</p>
+                <p class="inf_ob_uch">Информация об участнике собрания</p>
 
         <div class="unn">
-            <label for="inputEmail4" class="unnos">ИНН*</label>
+            <label for="inputEmail4" class="txt_obsh">ИНН*</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="00000000">
         </div>
         <div class="codorg">
-            <label for="inputPassword4" class="codorg_txt">Код ОГРН*</label>
+            <label for="inputPassword4" class="txt_obsh">Код ОГРН*</label>
             <input type="password" class="form-control" id="inputPassword4" placeholder="000 000 000 00">
         </div>
         <div class="poln_naim">
-            <label for="inputAddress" class="poln_naim_txt">Полное наименование*</label>
+            <label for="inputAddress" class="txt_obsh">Полное наименование*</label>
             <input type="text" class="form-control" id="inputAddress" placeholder="Полное наименование">
         </div>
         <div class="qr_adres">
-            <label for="inputAddress2" class="form-label">Юридический адрес*</label>
-            <input type="text" class="qr_adres_txt" id="inputAddress2" placeholder="Юридический адрес">
+            <label for="inputAddress2" class="txt_obsh">Юридический адрес*</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Юридический адрес">
         </div>
 
-        <div class="col-12">
-            <label for="inputAddress2" class="form-label">Почтовый адрес*</label>
+        <div class="pcht_adres">
+            <label for="inputAddress2" class="txt_obsh">Почтовый адрес*</label>
             <input type="text" class="form-control" id="inputAddress3" placeholder="Почтовый адрес">
         </div>
 
-        <div class="col-12">
-            <label for="inputAddress2" class="form-label">Телефон*</label>
+        <div class="telefon">
+            <label for="inputAddress2" class="txt_obsh">Телефон*</label>
             <input type="text" class="form-control" id="inputAddress4" placeholder="+7 (900) 000-12-34">
         </div>
 
 
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">Электронная почта*</label>
+        <div class="email">
+            <label for="inputState" class="txt_obsh">Электронная почта*</label>
             <input type="text" class="form-control" id="inputState" placeholder="Электронная почта">
         </div>
 
-        <div class="col-md-5">
-            <label for="inputZip" class="form-label">Повторите адрес электронной почты*</label>
+        <div class="email_2">
+            <label for="inputZip" class="txt_obsh">Повторите адрес электронной почты*</label>
             <input type="text" class="form-control" id="inputZip" placeholder="Повторите адрес электронной почты">
         </div>
 
 
-        <p class="fw-bold">Документы</p>
+        <p class="doks">Документы</p>
 
-        <p class="text-sm-start">Перечень документов, которые необходимо приложить
+        <p class="txt">Перечень документов, которые необходимо приложить
             к заявке, указан в Регламенте работы сервиса</p>
 
-        <p class="text-sm-start">Максимальный объём загружаемого файла 15 Мб. Документ должен быть в формате pdf или jpg</p>
+        <p class="txt2">Максимальный объём загружаемого файла 15 Мб. Документ должен быть в формате pdf или jpg</p>
+
+                <button type="button" class="knopka">Сохранить и подтвердить e-mail</button>
 
     </form>
 
-            <button type="button" class="btn btn-primary">Сохранить и подтвердить e-mail</button>
+
 
 
     <div class="table">

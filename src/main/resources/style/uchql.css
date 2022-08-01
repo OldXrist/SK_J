@@ -1,5 +1,221 @@
 
 
+
+
+
+
+
+.ogl {position: absolute;
+    width: 661px;
+    height: 16px;
+    left: 120px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #406C9A;
+    text-decoration: none;
+    border: none;
+}
+
+.gl {position: absolute;
+    width: 59px;
+    height: 16px;
+    left: 120px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    color: #406C9A;}
+
+.reg_new {position: absolute;
+    width: 261px;
+    height: 16px;
+    left: 198px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    color: #406C9A;
+}
+
+.uch_sbor_ql{position: absolute;
+    width: 350px;
+    height: 16px;
+    left: 478px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    color: #406C9A;}
+
+.reg_uch {position: absolute;
+    width: 430px;
+    height: 38px;
+    left: 120px;
+    top: 188px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    color: #104781;}
+
+.reg_uch_txt {position: absolute;
+    width: 609px;
+    height: 147px;
+    left: 120px;
+    top: 256px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #406C9A;}
+
+.zaiav {position: absolute;
+    width: 93px;
+    height: 18px;
+    left: 120px;
+    top: 453px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.gal {position: absolute;
+    width: 554px;
+    height: 156px;
+    left: 120px;
+    top: 501px;}
+
+.gal_txt1 {position: absolute;
+    width: 463px;
+    height: 42px;
+    left: 25px;
+    top: 0px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #406C9A;}
+
+.gal_txt2 {position: absolute;
+    width: 527px;
+    height: 50px;
+    left: 25px;
+    top: 52px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #406C9A;}
+
+.gal_txt3 {position: absolute;
+    width: 527px;
+    height: 42px;
+    left: 25px;
+    top: 105px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #406C9A;}
+
+.kub1 {position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 2px;
+    border: 1px solid #406C9A;
+    border-radius: 2px;
+}
+
+.kub2 {position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 54px;
+    border: 1px solid #406C9A;
+    border-radius: 2px;
+}
+
+.kub3 {position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 107px;
+    border: 1px solid #406C9A;
+    border-radius: 2px;
+}
+
+.inf_ob_uch{position: absolute;
+    width: 319px;
+    height: 18px;
+    left: 60px;
+    top: 50px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
 .table1 {
 
     box-sizing: border-box;
@@ -11,7 +227,6 @@
     top: 707px;
 
     background: #BAF3FC;
-    border: 1px solid #000000;
     border-radius: 15px;
 }
 
@@ -26,12 +241,12 @@
     border-radius: 10px;
 }
 
-.unnos {
+.txt_obsh {
     position: absolute;
-    width: 45px;
+    width: 323px;
     height: 18px;
-    left: 60px;
-    top: 98px;
+    left: 0px;
+    top: -20px;
 
     font-family: 'Exo 2';
     font-style: normal;
@@ -39,24 +254,6 @@
     font-size: 18px;
     line-height: 100%;
     color: #406C9A;
-}
-
-.info_ob {
-    position: absolute;
-    width: 319px;
-    height: 18px;
-    left: 180px;
-    top: 757px;
-
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 100%;
-    /* identical to box height, or 18px */
-
-
-    color: #104781;
 }
 
 
@@ -69,63 +266,125 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
-.codorg_txt {position: absolute;
-    width: 88px;
-    height: 18px;
-    left: 510px;
-    top: 98px;
-
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #406C9A;}
-
 .poln_naim {position: absolute;
     position: absolute;
     width: 1040px;
     height: 50px;
-    left: 180px;
-    top: 961px;
+    left: 60px;
+    top: 254px;
 
     background: #FFFFFF;
     border-radius: 10px;}
-
-.poln_naim_txt {position: absolute;
-    width: 201px;
-    height: 18px;
-    left: 180px;
-    top: 923px;
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #406C9A;}
 
 .qr_adres{position: absolute;
     position: absolute;
     width: 1040px;
     height: 50px;
-    left: 180px;
-    top: 1079px;
+    left: 60px;
+    top: 372px;
 
     background: #FFFFFF;
     border-radius: 10px;}
 
-.qr_adres_txt{position: absolute;
-    width: 180px;
+
+.pcht_adres {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 490px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.telefon {position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 608px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.email {position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 726px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.email_2 {position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 726px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.doks {position: absolute;
+    width: 101px;
     height: 18px;
-    left: 180px;
-    top: 1041px;
+    left: 60px;
+    top: 826px;
 
     font-family: 'Exo 2';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     /* identical to box height, or 18px */
 
 
+    color: #104781;}
+
+.txt {position: absolute;
+    width: 425px;
+    height: 105px;
+    left: 60px;
+    top: 874px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
     color: #406C9A;}
+
+.txt2 {position: absolute;
+    width: 425px;
+    height: 105px;
+    left: 60px;
+    top: 944px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #406C9A;}
+
+.knopka {position: absolute;
+    width: 340px;
+    height: 55px;
+    left: 410px;
+    top: 1029px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
