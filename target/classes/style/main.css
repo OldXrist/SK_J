@@ -13,9 +13,6 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 136.5%;
-  /* or 20px */
-
-
   color: #FFFFFF;
 }
 
@@ -48,4 +45,18 @@
   height: 36px;
   border: none;
   text-decoration: none;
+}
+
+.sort_drop {
+  position: absolute;
+  width: 199px;
+  height: 126px;
+  left: 324px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 12px rgba(16, 71, 129, 0.1);
+  border-radius: 10px;
+}
+
+.sort_drop li {
+  list-style: none;
 }
