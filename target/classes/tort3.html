@@ -147,7 +147,78 @@
     <div class="table">
         <div class="table_item"></div>
     </div>
-            <!--<script src="jquery/jquery-3.6.0.js"></script>-->
+            <script src="jquery/jquery-3.6.0.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".dropdown").hide()
+                })
+                $(document).ready(function () {
+                    $(".stats_btn").click(function () {
+                        $(".dropdown").slideDown();
+                    });
+                });
+                $(document).ready(function () {
+                    $(".stats_btn").click(function () {
+                        $(".table").animate({
+                            top: "1583px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".stats_btn").click(function () {
+                        $(".sort").animate({
+                            top: "1535px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".stats_btn").click(function () {
+                        $(".base").animate({
+                            top: "2333px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".stats_btn").click(function () {
+                        $(".base_bg").animate({
+                            top: "2333px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".cross").click(function () {
+                        $(".dropdown").slideUp();
+                    });
+                });
+                $(document).ready(function () {
+                    $(".cross").click(function () {
+                        $(".table").animate({
+                            top: "996px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".cross").click(function () {
+                        $(".sort").animate({
+                            top: "948px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".cross").click(function () {
+                        $(".base").animate({
+                            top: "1748px"
+                        });
+                    });
+                });
+                $(document).ready(function () {
+                    $(".cross").click(function () {
+                        $(".base_bg").animate({
+                            top: "1748px"
+                        });
+                    });
+                });
+            </script>
 </body>
 </html>
