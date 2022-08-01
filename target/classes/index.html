@@ -101,13 +101,13 @@
             <input type="submit" value="Поиск" class="srch_btn" />
         </form>
 
-        <p class="sort">Сортировать по <b>номеру</b><img src="/img/down_arrow.svg" class="arrw"/></p>
+        <p class="sort">Сортировать по <b class="sort_val">номеру</b><img src="/img/down_arrow.svg" class="arrw"/></p>
         <ul class="sort_drop">
-            <li>номеру</li>
-            <li>дате добавления</li>
-            <li>статусу</li>
+            <li class="sort1">номеру</li>
+            <li class="sort2">дате добавления</li>
+            <li class="sort3">статусу</li>
         </ul>
-
+        <div class="fade"></div>
         <div class="table">
             <div class="table_item">
                 <h3 class="table_h">1013 Очное</h3>
@@ -328,15 +328,45 @@
             $(".table").animate({
                 opacity: "0.3"
             });
+        }).click(function(){
+            $(".arrw").css("transform", "rotate(180deg)")
+        });
+    });
+    $(document).ready(function(){
+        $(".sort_drop").mouseleave(function(){
+            $(".sort_drop").slideUp()
+        }).mouseleave(function(){
+            $(".table").animate({
+                opacity: "1"
+            });
+        }).mouseleave(function(){
+            $(".arrw").css("transform", "rotate(360deg)")
         });
     });
     $(document).ready(function(){
         $(".sort_drop li").click(function(){
-            $(".sort_drop").slideUp()
+            $(".sort_drop").slideToggle()
         }).click(function(){
             $(".table").animate({
                 opacity: "1"
             });
+        }).click(function(){
+            $(".arrw").css("transform", "rotate(360deg)")
+        })
+    });
+    $(document).ready(function(){
+        $(".sort1").click(function(){
+            $(".sort_val").text("номеру")
+        });
+    });
+    $(document).ready(function(){
+        $(".sort2").click(function(){
+            $(".sort_val").text("дате добавления")
+        });
+    });
+    $(document).ready(function(){
+        $(".sort3").click(function(){
+            $(".sort_val").text("статусу")
         });
     });
 </script>

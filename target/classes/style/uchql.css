@@ -1,0 +1,131 @@
+
+
+.table1 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1160px;
+    height: 1134px;
+    left: 120px;
+    top: 707px;
+
+    background: #BAF3FC;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.unn {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.unnos {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 60px;
+    top: 98px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #406C9A;
+}
+
+.info_ob {
+    position: absolute;
+    width: 319px;
+    height: 18px;
+    left: 180px;
+    top: 757px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;
+}
+
+
+.codorg {position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.codorg_txt {position: absolute;
+    width: 88px;
+    height: 18px;
+    left: 510px;
+    top: 98px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #406C9A;}
+
+.poln_naim {position: absolute;
+    position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 180px;
+    top: 961px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.poln_naim_txt {position: absolute;
+    width: 201px;
+    height: 18px;
+    left: 180px;
+    top: 923px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #406C9A;}
+
+.qr_adres{position: absolute;
+    position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 180px;
+    top: 1079px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.qr_adres_txt{position: absolute;
+    width: 180px;
+    height: 18px;
+    left: 180px;
+    top: 1041px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #406C9A;}

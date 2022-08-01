@@ -272,6 +272,7 @@ h2 {
   height: 678px;
   width: 1160px;
   top: 996px;
+  color: #FFFFFF;
 }
 
 .table_item {
@@ -290,9 +291,8 @@ h2 {
 .sort {
   position: absolute;
   padding-bottom: 30px;
-  width: 235px;
+  width: 350px;
   height: 18px;
-  margin-left: 60px;
   top: 948px;
   margin-left: 100px;
   font-family: 'Exo 2';
@@ -593,7 +593,7 @@ content {
   position: absolute;
   width: 199px;
   height: 126px;
-  left: 324px;
+  margin-left: 230px;
   top: 986px;
   padding: 0;
   z-index: 1100;
@@ -629,4 +629,8 @@ content {
 
 .arrw{
   cursor: pointer;
+}
+
+.drop_arrw {
+  margin-left: -40px;
 }
