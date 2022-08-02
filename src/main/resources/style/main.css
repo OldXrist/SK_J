@@ -205,9 +205,6 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 120%;
-  /* or 38px */
-
-
   color: #104781;
 }
 
@@ -224,7 +221,6 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  /* identical to box height, or 18px */
   color: #406C9A;
   text-align: center;
   padding-bottom: 30px;
