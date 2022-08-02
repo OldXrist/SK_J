@@ -72,7 +72,7 @@
     color: #406C9A;}
 
 .reg_uch {position: absolute;
-    width: 430px;
+    width: 500px;
     height: 38px;
     margin-left: 120px;
     top: 188px;
@@ -289,7 +289,7 @@
 
 .txt_obsh {
     position: absolute;
-    width: 323px;
+    width: 400px;
     height: 18px;
     left: 0px;
     top: -40px;
@@ -494,6 +494,17 @@
     height: 50px;
     left: 510px;
     top: 608px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.nazv_org {
+    position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 490px;
 
     background: #FFFFFF;
     border-radius: 10px;
