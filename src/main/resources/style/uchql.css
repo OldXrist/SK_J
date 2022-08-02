@@ -1,10 +1,7 @@
 
 
 .content {
-    position: absolute;
-    display: block;
     width: 100%;
-    margin: auto;
 }
 
 .ogl {position: absolute;
@@ -718,4 +715,12 @@
     text-decoration-line: underline;
 
     color: #104781;
+}
+
+.base{
+    margin-top: 190px;
+}
+
+.base_bg{
+    margin-top: 190px;
 }
