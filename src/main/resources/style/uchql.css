@@ -240,11 +240,50 @@
 
 }
 
+.table2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1160px;
+    height: 1320px;
+    left: 120px;
+    top: 707px;
+
+    display: block;
+
+    background: #BAF3FC;
+    border-radius: 15px;
+
+}
+
+.unn2 {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
 .unn {
     position: absolute;
     width: 400px;
     height: 50px;
     left: 60px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.snils {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 410px;
     top: 136px;
 
     background: #FFFFFF;
@@ -272,16 +311,42 @@
     border: none;
 }
 
+.forms:focus{
+    outline: none;
+}
+
+
 .forms2 {  padding:12px;
     width: 1040px;
     border-radius:10px;
     border: none;
 }
 
+.forms2:focus{
+    outline: none;
+}
+
+
 .forms3 {  padding:12px;
     width: 590px;
     border-radius:10px;
     border: none;
+}
+
+.forms3:focus{
+    outline: none;
+}
+
+
+.forms4 {
+    padding:12px;
+    width: 300px;
+    border-radius:10px;
+    border: none;
+
+}
+.forms4:focus{
+    outline: none;
 }
 
 
@@ -293,6 +358,50 @@
 
     background: #FFFFFF;
     border-radius: 10px;}
+
+.codorg2 {
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.famil {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    top: 254px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.name {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 410px;
+    top: 254px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.otch {
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 254px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
 
 .poln_naim {position: absolute;
     position: absolute;
@@ -324,6 +433,15 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
+.pcht_adres2 {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 372px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
 .telefon {position: absolute;
     width: 400px;
     height: 50px;
@@ -332,6 +450,17 @@
 
     background: #FFFFFF;
     border-radius: 10px;}
+
+.telefon2 {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 490px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
 
 .email {position: absolute;
     width: 400px;
@@ -342,6 +471,17 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
+.email2 {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 608px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
 .email_2 {position: absolute;
     width: 590px;
     height: 50px;
@@ -350,6 +490,77 @@
 
     background: #FFFFFF;
     border-radius: 10px;}
+
+.email2_2 {
+    position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 608px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.pass {
+    position: absolute;
+    width: 177px;
+    height: 18px;
+    left: 60px;
+    top: 708px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+
+    color: #104781;
+}
+
+.seria {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    top: 794px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.nomer {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 410px;
+    top: 794px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.data_vidochi {
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 794px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.vidan {
+    position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 912px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
 
 .doks {position: absolute;
     width: 101px;
@@ -362,10 +573,43 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
+    color: #104781;}
+
+.doks_2 {
+    position: absolute;
+    width: 101px;
+    height: 18px;
+    left: 60px;
+    top: 1012px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
     /* identical to box height, or 18px */
 
 
-    color: #104781;}
+    color: #104781;
+}
+
+.txt_2 {
+    position: absolute;
+    width: 425px;
+    height: 105px;
+    left: 60px;
+    top: 1060px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+
+    color: #406C9A;
+}
 
 .txt {position: absolute;
     width: 425px;
@@ -419,11 +663,43 @@
     color: #00345F;
 }
 
+.knopka2 {
+    position: absolute;
+    width: 340px;
+    height: 55px;
+    left: 410px;
+    top: 1215px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    border: none;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
 .doks2 {position: absolute;
     width: 94px;
     height: 94px;
     left: 600px;
     top: 880px;
+}
+
+.doks2_2 {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 600px;
+    top: 1066px;
 }
 
 .prikrepit-dokument {position: absolute;
