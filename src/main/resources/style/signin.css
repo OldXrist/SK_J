@@ -4,7 +4,7 @@
     height: 887px;
     left: 0px;
     top: 0px;
-    background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.8) 4.43%, rgba(0, 71, 129, 0.8) 47.8%), url(/img/signin_bg.png);
+    background: linear-gradient(105.79deg, rgba(103, 200, 212, 0.3) 4.43%, rgba(0, 71, 129, 0.3) 47.8%), url(/img/signin_bg.png);
     background-size:100%;
     background-attachment: fixed;
 }
