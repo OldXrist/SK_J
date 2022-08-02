@@ -1,16 +1,16 @@
 
 
-
-
-
 .content {
+    position: absolute;
+    display: block;
     width: 100%;
+    margin: auto;
 }
 
 .ogl {position: absolute;
     width: 700px;
     height: 16px;
-    left: 120px;
+    margin-left: 120px;
     top: 127px;
 
     font-family: 'Exo 2';
@@ -22,8 +22,7 @@
     color: #406C9A;
     text-decoration: none;
     border: none;
-    margin-left: 120px;
-    margin-right: auto;
+
 }
 
 .gl {position: absolute;
@@ -78,7 +77,7 @@
 .reg_uch {position: absolute;
     width: 430px;
     height: 38px;
-    left: 120px;
+    margin-left: 120px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -87,15 +86,14 @@
     font-size: 32px;
     line-height: 120%;
     /* or 38px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
     color: #104781;}
 
 .reg_uch_txt {position: absolute;
     width: 609px;
     height: 147px;
-    left: 120px;
+    margin-left: 120px;
     top: 256px;
 
     font-family: 'Exo 2';
@@ -104,15 +102,14 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
     color: #406C9A;}
 
 .zaiav {position: absolute;
     width: 93px;
     height: 18px;
-    left: 120px;
+    margin-left: 120px;
     top: 453px;
 
     font-family: 'Exo 2';
@@ -121,15 +118,14 @@
     font-size: 18px;
     line-height: 100%;
     /* identical to box height, or 18px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
     color: #104781;}
 
 .gal {position: absolute;
     width: 554px;
     height: 156px;
-    left: 120px;
+    margin-left: 120px;
     top: 501px;}
 
 
@@ -145,8 +141,7 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
     color: #406C9A;}
 
@@ -162,8 +157,7 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
     color: #406C9A;}
 
@@ -179,8 +173,7 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-    margin-left: 120px;
-    margin-right: auto;
+
 
 
     color: #406C9A;}
@@ -192,8 +185,7 @@
     top: 2px;
     border: 1px solid #406C9A;
     border-radius: 2px;
-    margin-left: 120px;
-    margin-right: auto;
+
 }
 
 .kub2 {position: absolute;
@@ -203,8 +195,7 @@
     top: 54px;
     border: 1px solid #406C9A;
     border-radius: 2px;
-    margin-left: 120px;
-    margin-right: auto;
+
 }
 
 .kub3 {position: absolute;
@@ -214,8 +205,6 @@
     top: 107px;
     border: 1px solid #406C9A;
     border-radius: 2px;
-    margin-left: 120px;
-    margin-right: auto;
 }
 
 .inf_ob_uch{position: absolute;
@@ -244,10 +233,11 @@
     left: 120px;
     top: 707px;
 
+    display: block;
+
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 120px;
-    margin-right: auto;
+
 }
 
 .unn {
