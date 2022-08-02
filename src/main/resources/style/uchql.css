@@ -5,7 +5,7 @@
 }
 
 .ogl {position: absolute;
-    width: 700px;
+    width: 800px;
     height: 16px;
     margin-left: 120px;
     top: 127px;
@@ -244,7 +244,7 @@
     position: absolute;
     width: 1160px;
     height: 1320px;
-    left: 120px;
+    margin-left: 120px;
     top: 707px;
 
     display: block;
@@ -717,10 +717,55 @@
     color: #104781;
 }
 
+.prikrepit-dokument2 {
+    position: absolute;
+    width: 194px;
+    height: 18px;
+    left: 709px;
+    top: 1082px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-decoration-line: underline;
+
+    color: #104781;
+}
+
 .base{
     margin-top: 190px;
 }
 
 .base_bg{
     margin-top: 190px;
+}
+
+.base2 {
+    position: absolute;
+    width: 1160px;
+    height: 298px;
+    top: 1746px;
+    margin-top: 370px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 136.5%;
+    color: #FFFFFF;
+}
+.base_bg2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 298px;
+    top: 1746px;
+    bottom: 0;
+    margin-top: 370px;
+
+    background: #104781;
 }
