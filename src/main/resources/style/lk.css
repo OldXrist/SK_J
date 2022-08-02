@@ -1,0 +1,56 @@
+
+.content {
+    width: 100%;
+}
+
+.ogl_l {position: absolute;
+    width: 800px;
+    height: 16px;
+    margin-left: 120px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #406C9A;
+    text-decoration: none;
+    border: none;
+
+}
+
+.txt_lk {position: absolute;
+    width: 259px;
+    height: 38px;
+    left: 120px;
+    top: 188px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    color: #104781;}
+
+.table_lk {position: absolute;
+    width: 300px;
+    height: 232px;
+    left: 120px;
+    top: 276px;
+
+    background: #BAF3FC;
+    border-radius: 15px;}
+
+.logout-1-traced {
+    position: absolute;
+
+    left: 242px;
+    top: 49px;
+    width: 18px;
+    height: 20px;
+}
