@@ -3,10 +3,12 @@
 
 
 
-
+.content {
+    width: 100%;
+}
 
 .ogl {position: absolute;
-    width: 661px;
+    width: 700px;
     height: 16px;
     left: 120px;
     top: 127px;
@@ -20,6 +22,8 @@
     color: #406C9A;
     text-decoration: none;
     border: none;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .gl {position: absolute;
@@ -83,7 +87,8 @@
     font-size: 32px;
     line-height: 120%;
     /* or 38px */
-
+    margin-left: 120px;
+    margin-right: auto;
 
     color: #104781;}
 
@@ -99,7 +104,8 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-
+    margin-left: 120px;
+    margin-right: auto;
 
     color: #406C9A;}
 
@@ -115,7 +121,8 @@
     font-size: 18px;
     line-height: 100%;
     /* identical to box height, or 18px */
-
+    margin-left: 120px;
+    margin-right: auto;
 
     color: #104781;}
 
@@ -124,6 +131,7 @@
     height: 156px;
     left: 120px;
     top: 501px;}
+
 
 .gal_txt1 {position: absolute;
     width: 463px;
@@ -137,7 +145,8 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-
+    margin-left: 120px;
+    margin-right: auto;
 
     color: #406C9A;}
 
@@ -153,7 +162,8 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
-
+    margin-left: 120px;
+    margin-right: auto;
 
     color: #406C9A;}
 
@@ -169,6 +179,8 @@
     font-size: 16px;
     line-height: 130%;
     /* or 21px */
+    margin-left: 120px;
+    margin-right: auto;
 
 
     color: #406C9A;}
@@ -180,6 +192,8 @@
     top: 2px;
     border: 1px solid #406C9A;
     border-radius: 2px;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .kub2 {position: absolute;
@@ -189,6 +203,8 @@
     top: 54px;
     border: 1px solid #406C9A;
     border-radius: 2px;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .kub3 {position: absolute;
@@ -198,6 +214,8 @@
     top: 107px;
     border: 1px solid #406C9A;
     border-radius: 2px;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .inf_ob_uch{position: absolute;
@@ -220,7 +238,7 @@
 
     box-sizing: border-box;
 
-    position: absolute;
+    position: relative;
     width: 1160px;
     height: 1134px;
     left: 120px;
@@ -228,6 +246,8 @@
 
     background: #BAF3FC;
     border-radius: 15px;
+    margin-left: 120px;
+    margin-right: auto;
 }
 
 .unn {
@@ -256,19 +276,19 @@
     color: #406C9A;
 }
 
-.forms {  padding:11px;
+.forms {  padding:12px;
     width: 400px;
     border-radius:10px;
     border: none;
 }
 
-.forms2 {  padding:11px;
+.forms2 {  padding:12px;
     width: 1040px;
     border-radius:10px;
     border: none;
 }
 
-.forms3 {  padding:11px;
+.forms3 {  padding:12px;
     width: 590px;
     border-radius:10px;
     border: none;
