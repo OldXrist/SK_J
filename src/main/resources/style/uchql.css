@@ -8,7 +8,7 @@
 }
 
 .ogl {position: absolute;
-    width: 700px;
+    width: 800px;
     height: 16px;
     margin-left: 120px;
     top: 127px;
@@ -247,7 +247,7 @@
     position: absolute;
     width: 1160px;
     height: 1320px;
-    left: 120px;
+    margin-left: 120px;
     top: 707px;
 
     display: block;
