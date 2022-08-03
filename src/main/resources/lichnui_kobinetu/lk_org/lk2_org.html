@@ -267,6 +267,24 @@
                 });
             });
         });
+        $(document).ready(function(){
+            $(".add_drop li").click(function(){
+                $(".add_drop").slideUp()
+            }).click(function(){
+                $(".table").animate({
+                    opacity: "1"
+                });
+            });
+        });
+        $(document).ready(function(){
+            $(".add_drop").mouseleave(function(){
+                $(".add_drop").slideUp()
+            }).mouseleave(function(){
+                $(".table").animate({
+                    opacity: "1"
+                });
+            });
+        });
     </script>
 
 
