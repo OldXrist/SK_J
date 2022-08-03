@@ -57,7 +57,13 @@
     <p class="org_sobr2">Организация собраний</p>
     <p class="dob_sobr">Добавить собрание</p>
     <img class="plus" src="/img/close%201%20(Traced).svg">
+    <ul class="add_drop">
+        <li class="form21">Не выбрано</li>
+        <li class="form22">Очное</li>
+        <li class="form23">Заочное</li>
+    </ul>
 </form>
+
 
         <p class="sort">Сортировать по <b class="sort_val">номеру</b><img src="/img/down_arrow.svg" class="arrw"/></p>
         <ul class="sort_drop">
@@ -247,6 +253,18 @@
         $(document).ready(function(){
             $(".sort3").click(function(){
                 $(".sort_val").text("статусу")
+            });
+        });
+        $(document).ready(function(){
+            $(".add_drop").hide()
+        });
+        $(document).ready(function(){
+            $(".plus").click(function(){
+                $(".add_drop").slideDown()
+            }).click(function(){
+                $(".table").animate({
+                    opacity: '0.3'
+                });
             });
         });
     </script>
