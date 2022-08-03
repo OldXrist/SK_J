@@ -478,6 +478,20 @@
     background: #104781;
 }
 
+.lk_mal {position: absolute;
+    width: 134px;
+    height: 18px;
+    left: 60px;
+    top: 98px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    color: #406C9A;}
+
 .menu {
     top: 0px;
 }

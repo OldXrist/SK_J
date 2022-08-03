@@ -67,9 +67,22 @@
     margin-bottom: 20px;
 }
 
+.org_sobr_big {position: absolute;
+    width: 202px;
+    height: 18px;
+    left: 60px;
+    top: 131px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;}
+
 .sort {
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 18px;
     margin-left: 180px;
     top: 678px;
