@@ -156,13 +156,21 @@
 }
 
 .inline li input::placeholder{
-    padding: 17px;
     color: #406C9A;
     font-size: 16px;
 }
 
 .second{
     margin-left: 40px;
+}
+
+.phone{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #406C9A;
 }
 
 h6{
@@ -235,6 +243,10 @@ label{
     text-align: center;
     color: #00345F;
     border: none;
+}
+
+input{
+    padding-left: 17px;
 }
 
 .base{
