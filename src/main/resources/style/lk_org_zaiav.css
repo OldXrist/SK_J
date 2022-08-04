@@ -1,0 +1,502 @@
+
+
+.ogl {position: absolute;
+    width: 800px;
+    height: 16px;
+    margin-left: 120px;
+    top: 127px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #406C9A;
+    text-decoration: none;
+    border: none;
+
+}
+
+.zaiavka {position: absolute;
+    width: 622px;
+    height: 38px;
+    left: 120px;
+    top: 188px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    color: #104781;}
+
+.table_org {position: absolute;
+    width: 1160px;
+    height: 3432px;
+    margin-left: 120px;
+    top: 276px;
+
+    background: #BAF3FC;
+    border-radius: 15px;}
+
+.obshie_dan {position: absolute;
+    width: 231px;
+    height: 18px;
+    left: 60px;
+    top: 50px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.data_vrem {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 60px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 335px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time2 {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 335px;
+    top: 322px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time3 {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 785px;
+    top: 322px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time4 {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 335px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time5 {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 785px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.time6 {position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 335px;
+    top: 558px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+
+.povestka_dnia {position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 136px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.inf_ob_sobr {position: absolute;
+    width: 323px;
+    height: 18px;
+    left: 60px;
+    top: 236px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.vnimanie {position: absolute;
+    width: 227px;
+    height: 16px;
+    left: 410px;
+    top: 238px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    color: #406C9A;}
+
+.data_vrem2 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 60px;
+    top: 322px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.data_vrem3 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 510px;
+    top: 322px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.data_vrem4 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 60px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.data_vrem5 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 510px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.data_vrem6 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 60px;
+    top: 558px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.obem_sobr {position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 510px;
+    top: 558px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.dan_org_sobr {position: absolute;
+    width: 280px;
+    height: 18px;
+    left: 60px;
+    top: 658px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781}
+
+
+
+.unn {position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 774px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.ogrn {position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 774px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.naim_org {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 862px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.qr_adres {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 980px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.pocht_adres {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 1098px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.efrsb_txt {position: absolute;
+    width: 330px;
+    height: 18px;
+    left: 60px;
+    top: 1198px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.efrsb {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 1284px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.data_razm {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 1402px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.kontaktu {position: absolute;
+    width: 443px;
+    height: 18px;
+    left: 60px;
+    top: 1502px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.telefon{position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 60px;
+    top: 1588px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.email {position: absolute;
+    width: 590px;
+    height: 50px;
+    left: 510px;
+    top: 1588px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.sved_o_proc {position: absolute;
+    width: 310px;
+    height: 18px;
+    left: 60px;
+    top: 1688px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.naim_abr_sud {position: absolute;
+    width: 650px;
+    height: 50px;
+    left: 60px;
+    top: 1769px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.nomer_dela {position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 1769px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.osn_dlia_sobr {position: absolute;
+    width: 1040px;
+    height: 100px;
+    left: 60px;
+    top: 1887px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.dolzhnik {position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 60px;
+    top: 2037px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.tip_dolzh {position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    top: 2123px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.unn2 {position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 410px;
+    top: 2123px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.ogrn2 {position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 2123px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.naim_dolzh {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 2241px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.doks {position: absolute;
+    width: 613px;
+    height: 18px;
+    left: 180px;
+    top: 2617px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.ud_lich {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 2389px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+
+.ud_ruk {position: absolute;
+    width: 1040px;
+    height: 50px;
+    left: 60px;
+    top: 2469px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.txt_obsh {
+    position: absolute;
+    width: 500px;
+    height: 18px;
+    left: 0px;
+    top: -40px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #406C9A;
+}
+
+
+
+
+
+
+
