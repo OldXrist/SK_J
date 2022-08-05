@@ -32,7 +32,7 @@
 .ep{
     position: absolute;
     width: 1160px;
-    height: 358px;
+    height: auto;
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
@@ -62,10 +62,16 @@
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 100%;
     color: #406C9A;
-    padding-bottom: 15px;
+    width: 790px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 17px;
+    color: #406C9A;
+    font-size: 16px;
 }
 
 .more{
@@ -234,10 +240,7 @@ input{
     margin-left: 50px;
 }
 
-.base{
-    margin-top: 90px;
-}
-
-.base_bg {
-    margin-top: 90px;
+.base_bg{
+    top: 0;
+    margin-top: 1300px;
 }
