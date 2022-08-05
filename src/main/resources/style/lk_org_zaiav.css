@@ -481,7 +481,7 @@
 
 .txt_obsh {
     position: absolute;
-    width: 500px;
+    width: 800px;
     height: 18px;
     left: 0px;
     top: -40px;
@@ -492,6 +492,71 @@
     font-size: 18px;
     line-height: 100%;
     color: #406C9A;
+}
+
+.forms {  padding:12px;
+    width: 400px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms:focus{
+    outline: none;
+}
+
+
+.forms2 {  padding:12px;
+    width: 1040px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms2:focus{
+    outline: none;
+}
+
+
+.forms3 {  padding:12px;
+    width: 590px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms3:focus{
+    outline: none;
+}
+
+
+.forms4 {
+    padding:12px;
+    width: 300px;
+    border-radius:10px;
+    border: none;
+
+}
+.forms4:focus{
+    outline: none;
+}
+
+
+.forms5 {  padding:12px;
+    width: 250px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms5:focus{
+    outline: none;
+}
+
+.forms6 {  padding:12px;
+    width: 125px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms6:focus{
+    outline: none;
 }
 
 
