@@ -130,3 +130,20 @@
   text-decoration: none;
   color: #406C9A;
 }
+
+.ogl {position: absolute;
+  width: 800px;
+  height: 16px;
+  margin-left: 40px;
+  top: 127px;
+
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #406C9A;
+  text-decoration: none;
+  border: none;
+}
