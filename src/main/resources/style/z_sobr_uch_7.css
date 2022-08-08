@@ -42,6 +42,7 @@ html {
     border-radius: 15px;
     margin-left: 40px;
     padding-left: 60px;
+    padding-bottom: 50px;
 }
 
 .ep p{
@@ -68,14 +69,51 @@ html {
     font-weight: 400;
     line-height: 100%;
     color: #406C9A;
-    width: 790px;
-    height: 50px;
+    margin-bottom: 20px;
+}
+
+.ep ul img{
+    margin-left: -40px;
+}
+
+.dropd{
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
     padding: 17px;
     color: #406C9A;
     font-size: 16px;
+    width: 1040px;
+    height: 50px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    top: 770px;
+}
+
+.show{
+    border-radius: 10px;
+    border: none;
+    margin-left: 350px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #00345F;
+    margin-top: 20px;
+    background: #37DCF5;
+}
+
+.hide{
+    background: #BAF3FC;
+    border-radius: 10px;
+    border: 1px solid #00345F;
+    margin-left: 350px;
+    top: 680px;
 }
 
 .stats {
@@ -104,24 +142,6 @@ html {
     margin-right: 67px;
 }
 
-.stats_2 {
-    position: absolute;
-    width: 1160px;
-    height: 90px;
-    top: 416px;
-    margin-left: 40px;
-    background: #BAF3FC;
-    border-radius: 15px;
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #406C9A;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
 .stats_item {
     display: inline-block;
     list-style: none;
@@ -130,55 +150,55 @@ html {
     margin-right: 67px;
 }
 
-table{
+.bul{
     position: absolute;
     width: 1160px;
-    height: 663px;
-    top: 416px;
+    height: 454px;
     margin-left: 40px;
+    top: 416px;
+    background: #BAF3FC;
+    border-radius: 15px;
+}
+
+table{
+    text-align: center;
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 120%;
+    line-height: 100%;
     color: #104781;
+    margin-bottom: 60px;
+}
+
+.fio{
+    width: 440px;
+    text-align: left;
 }
 
 table tr th{
-    text-align: left;
-    background: #BAF3FC;
-    padding: 12px;
-}
-
-.top th{
+    width: 200px;
+    padding: 18px;
     border: 1px solid rgba(16, 71, 129, 0.4);
 }
 
 table tr td{
+    padding: 18px;
     border: 1px solid rgba(16, 71, 129, 0.4);
-    padding: 12px;
-    text-align: left;
 }
 
-.nobord{
-    border-top: 1px solid rgba(16, 71, 129, 0.4);
-    border-bottom: 1px solid rgba(16, 71, 129, 0.4);
+table tr td img{
+    margin-left: 163px;
 }
 
-.itog{
-    border-bottom: 1px solid rgba(16, 71, 129, 0.4);
-}
-
-.f_cell{
-    border-bottom: 1px solid rgba(16, 71, 129, 0.4);
-    border-left: 1px solid rgba(16, 71, 129, 0.4);
-}
-
-.bord{
-    border: 1px solid rgba(16, 71, 129, 0.4);
+table tr td input{
+    width: 17px;
+    height: 17px;
+    border: 1px solid #406C9A;
+    border-radius: 2px;
 }
 
 .base_bg{
     top: 0;
-    margin-top: 1164px;
+    margin-top: 960px;
 }
