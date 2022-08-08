@@ -1,0 +1,51 @@
+.lk {position: absolute;
+    width: 259px;
+    height: 38px;
+    left: 120px;
+    top: 188px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    color: #104781;}
+
+.table_min {position: absolute;
+    width: 375px;
+    height: 232px;
+    left: 120px;
+    top: 276px;
+
+    background: #BAF3FC;
+    border-radius: 15px;}
+
+.table_osn {position: absolute;
+    width: 1160px;
+    height: 645px;
+    left: 120px;
+    top: 558px;
+
+    background: #BAF3FC;
+    border-radius: 15px;}
+
+.ld {position: absolute;
+    width: 138px;
+    height: 18px;
+    left: 60px;
+    top: 50px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;}
+
+.famil {}
+
+
+

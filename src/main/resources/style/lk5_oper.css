@@ -19,7 +19,7 @@
 .table_bol {position: absolute;
     width: 1160px;
     height: 1775px;
-    left: 120px;
+    margin-left: 120px;
     top: 276px;
 
     background: #BAF3FC;
@@ -28,8 +28,8 @@
 .org_sobr {position: absolute;
     width: 199px;
     height: 18px;
-    left: 180px;
-    top: 326px;
+    left: 60px;
+    top: 50px;
 
     font-family: 'Exo 2';
     font-style: normal;
@@ -77,7 +77,7 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
-.telefon {position: absolute;
+.telefon2 {position: absolute;
     width: 400px;
     height: 50px;
     left: 60px;
@@ -86,7 +86,7 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
-.email {position: absolute;
+.email_2 {position: absolute;
     width: 590px;
     height: 50px;
     left: 510px;
@@ -258,7 +258,49 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
+.forms {  padding:12px;
+    width: 400px;
+    border-radius:10px;
+    border: none;
+}
 
+.forms:focus{
+    outline: none;
+}
+
+
+.forms2 {  padding:12px;
+    width: 1040px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms2:focus{
+    outline: none;
+}
+
+
+.forms3 {  padding:12px;
+    width: 590px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms3:focus{
+    outline: none;
+}
+
+.forms5 {  padding:12px;
+    width: 1040px;
+    height: 100px;
+    border-radius:10px;
+    border: none;
+    padding-bottom: 65px;
+}
+
+.forms5:focus{
+    outline: none;
+}
 
 
 

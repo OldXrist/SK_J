@@ -1,7 +1,7 @@
 
 
 .lk {position: absolute;
-    width: 259px;
+    width: 600px;
     height: 38px;
     margin-left: 120px;
     top: 188px;
@@ -315,6 +315,7 @@
 .forms4:focus{
     outline: none;
 }
+
 
 
 
