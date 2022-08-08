@@ -12,10 +12,8 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 136.5%;
-  /* or 20px */
-
-
   color: #FFFFFF;
+  top: 0;
 }
 
 .logo {
@@ -59,13 +57,11 @@
   position: absolute;
   width: 1160px;
   height: 298px;
-  top: 1746px;
-  margin: 0;
-  margin: auto;
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  margin-left: 14%;
   line-height: 136.5%;
   color: #FFFFFF;
 }
@@ -128,4 +124,9 @@
   top: 1746px;
   bottom: 0;
   background: #104781;
+}
+
+.anti_tekst {
+  text-decoration: none;
+  color: #406C9A;
 }

@@ -107,8 +107,6 @@ h2{
     font-size: 18px;
     line-height: 100%;
     text-align: center;
-    z-index: 1100;
-    overflow: visible;
     color: #00345F;
     border: none;
 }

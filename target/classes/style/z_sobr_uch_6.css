@@ -1,0 +1,86 @@
+html {
+    overflow-x: hidden;
+}
+
+.bc{
+    position: absolute;
+    top: 127px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #406C9A;
+    margin-left: 40px;
+}
+
+.bc a{
+    text-decoration: none;
+    color: #406C9A;
+}
+
+.heading{
+    position: absolute;
+    width: 600px;
+    height: 38px;
+    top: 188px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #104781;
+    margin-left: 40px;
+}
+
+.ep{
+    position: absolute;
+    width: 1160px;
+    height: auto;
+    top: 416px;
+    background: #BAF3FC;
+    border-radius: 15px;
+    margin-left: 40px;
+    padding-left: 60px;
+}
+
+.ep p{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;
+    margin: 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ep ul{
+    padding: 0;
+}
+
+.ep ul li{
+    display: inline-block;
+    list-style: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #406C9A;
+    width: 790px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 17px;
+    color: #406C9A;
+    font-size: 16px;
+}
+
+
+
+.base_bg{
+    top: 0;
+    margin-top: 1164px;
+}

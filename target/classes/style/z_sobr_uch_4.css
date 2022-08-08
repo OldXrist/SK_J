@@ -1,7 +1,3 @@
-html {
-    overflow-x: hidden;
-}
-
 .bc{
     position: absolute;
     top: 127px;
@@ -36,12 +32,13 @@ html {
 .ep{
     position: absolute;
     width: 1160px;
-    height: auto;
+    height: 310px;
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
     margin-left: 40px;
     padding-left: 60px;
+    padding-top: 50px;
 }
 
 .ep p{
@@ -60,6 +57,14 @@ html {
     padding: 0;
 }
 
+.hed{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;
+}
+
 .ep ul li{
     display: inline-block;
     list-style: none;
@@ -68,14 +73,44 @@ html {
     font-weight: 400;
     line-height: 100%;
     color: #406C9A;
-    width: 790px;
+}
+
+.ep ul li img{
+    padding-right: 15px;
+}
+
+.text{
+    margin-left: 380px;
+}
+
+.svg{
+    margin-right: 156px;
+    padding-top: 10px;
+}
+
+.btns{
+    margin-left: 295px;
+    padding-top: 10px;
+}
+
+.down{
+    width: 200px;
     height: 50px;
-    background: #FFFFFF;
+    border: 1px solid #00345F;
     border-radius: 10px;
-    border: none;
-    padding: 17px;
-    color: #406C9A;
+    background: #BAF3FC;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #00345F;
+
+}
+
+.weight{
+    display: block;
 }
 
 .stats {
@@ -104,81 +139,7 @@ html {
     margin-right: 67px;
 }
 
-.stats_2 {
-    position: absolute;
-    width: 1160px;
-    height: 90px;
-    top: 416px;
-    margin-left: 40px;
-    background: #BAF3FC;
-    border-radius: 15px;
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #406C9A;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.stats_item {
-    display: inline-block;
-    list-style: none;
-    margin-top: 36px;
-    text-decoration: none;
-    margin-right: 67px;
-}
-
-table{
-    position: absolute;
-    width: 1160px;
-    height: 663px;
-    top: 416px;
-    margin-left: 40px;
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 120%;
-    color: #104781;
-}
-
-table tr th{
-    text-align: left;
-    background: #BAF3FC;
-    padding: 12px;
-}
-
-.top th{
-    border: 1px solid #104781;
-}
-
-table tr td{
-    border: 1px solid #104781;
-    padding: 12px;
-    text-align: left;
-}
-
-.nobord{
-    border-top: 1px solid #104781;
-    border-bottom: 1px solid #104781;
-}
-
-.itog{
-    border-bottom: 1px solid #104781;
-}
-
-.f_cell{
-    border-bottom: 1px solid #104781;
-    border-left: 1px solid #104781;
-}
-
-.bord{
-    border: 1px solid #104781;
-}
-
 .base_bg{
     top: 0;
-    margin-top: 1164px;
+    margin-top: 816px;
 }
