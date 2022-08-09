@@ -31,7 +31,7 @@ body {
 
 .login_container {
   position: absolute;
-  margin-left: 40px;
+  margin-left: 80px;
   top: 165px;
   height: 378px;
 }
@@ -176,9 +176,6 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  /* identical to box height, or 18px */
-
-
   color: #FFFFFF;
 }
 
@@ -191,9 +188,6 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
-  /* or 18px */
-
-
   color: #FFFFFF;
   opacity: 0.8;
 }
@@ -203,7 +197,7 @@ h2 {
   width: 266px;
   height: 38px;
   top: 740px;
-  margin-left: 40px;
+  margin-left: 80px;
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 700;
@@ -217,7 +211,7 @@ h2 {
   width: 1160px;
   height: 90px;
   top: 828px;
-  margin-left: 40px;
+  margin-left: 80px;
   background: #BAF3FC;
   border-radius: 15px;
   font-family: 'Exo 2';
@@ -257,7 +251,7 @@ h2 {
   width: 1160px;
   height: 557px;
   top: 948px;
-  margin-left: 40px;
+  margin-left: 80px;
   background: #BAF3FC;
   border-radius: 15px;
   margin-bottom: 30px;
@@ -267,7 +261,7 @@ h2 {
 
 .table {
   position: absolute;
-  margin-left: 40px;
+  margin-left: 80px;
   height: 678px;
   width: 1160px;
   top: 996px;
@@ -293,7 +287,7 @@ h2 {
   width: 350px;
   height: 18px;
   top: 948px;
-  margin-left: 100px;
+  margin-left: 140px;
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 400;
@@ -344,9 +338,6 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  /* identical to box height, or 16px */
-
-
   color: #104781;
   z-index: 999;
   overflow: visible;
@@ -359,9 +350,6 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
-  /* identical to box height, or 14px */
-
-
   color: #406C9A;
 }
 
@@ -394,7 +382,6 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  /* identical to box height, or 16px */
   color: #104781;
 }
 
@@ -449,7 +436,6 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  /* identical to box height, or 16px */
   border: none;
   color: #406C9A;
 }
@@ -461,9 +447,6 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  /* identical to box height, or 18px */
-
-
   color: #406C9A;
 }
 
@@ -478,7 +461,6 @@ h2 {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  /* identical to box height, or 18px */
   color: #104781;
   margin-bottom: 30px;
 }
@@ -595,7 +577,7 @@ content {
   position: absolute;
   width: 199px;
   height: 126px;
-  margin-left: 230px;
+  margin-left: 270px;
   top: 986px;
   padding: 0;
   z-index: 1100;
