@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .ep{
@@ -36,7 +36,7 @@
     top: 276px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
 }
 
@@ -293,7 +293,7 @@ label{
     width: 1040px;
     height: 126px;
     top: 610px;
-    margin-left: 99px;
+    margin-left: 139px;
     padding: 0;
     z-index: 1100;
     overflow: hidden;
@@ -330,7 +330,7 @@ label{
     width: 1040px;
     height: 307px;
     top: 735px;
-    margin-left: 99px;
+    margin-left: 139px;
     padding: 0;
     z-index: 1100;
     overflow: hidden;

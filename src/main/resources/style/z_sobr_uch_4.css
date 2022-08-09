@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .ep{
@@ -36,7 +36,7 @@
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
     padding-top: 50px;
 }
@@ -118,7 +118,7 @@
     width: 1160px;
     height: 90px;
     top: 276px;
-    margin-left: 40px;
+    margin-left: 80px;
     background: #BAF3FC;
     border-radius: 15px;
     font-family: 'Exo 2';
@@ -154,7 +154,7 @@
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
     padding-top: 50px;
 }
@@ -202,21 +202,15 @@
     height: 50px;
     left: 790px;
     top: 210px;
-
     background: #37DCF5;
     border-radius: 10px;
-
     border: none;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
-    /* or 18px */
-
     text-align: center;
-
     color: #00345F;
 }
 

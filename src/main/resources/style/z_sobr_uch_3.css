@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .ep{
@@ -36,7 +36,7 @@
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
 }
 
@@ -157,7 +157,7 @@ input{
     width: 1160px;
     height: 90px;
     top: 276px;
-    margin-left: 40px;
+    margin-left: 80px;
     background: #BAF3FC;
     border-radius: 15px;
     font-family: 'Exo 2';
