@@ -16,12 +16,13 @@
 .sort img {
     margin-left: 10px;
 }
+
 .sort_drop {
     position: absolute;
     width: 199px;
-    height: 156px;
-    margin-left: 250px;
-    top: 775px;
+    height: 126px;
+    margin-left: 200px;
+    top: 770px;
     padding: 0;
     z-index: 1100;
     overflow: hidden;
@@ -53,6 +54,7 @@
 .sort_drop li:hover{
     background: #BAF3FC;
 }
+
 
 .decline{
     position: absolute;
@@ -489,10 +491,10 @@
 }
 
 .base_bg{
-    margin-top: 1372px;
+    margin-top: 1542px;
 }
 
 .base{
-    margin-top: 1372px;
+    margin-top: 1542px;
 }
 
