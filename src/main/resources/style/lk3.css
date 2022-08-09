@@ -12,15 +12,11 @@
     height: 18px;
     left: 60px;
     top: 36px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
 .chern_zaiav_big {position: absolute;
@@ -34,9 +30,6 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
 .table_blue1 {box-sizing: border-box;
@@ -163,3 +156,11 @@
 
 
     color: #104781;}
+
+.base_bg{
+    margin-top: 1098px;
+}
+
+.base{
+    margin-top: 1098px;
+}
