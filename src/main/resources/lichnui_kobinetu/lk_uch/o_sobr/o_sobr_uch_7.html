@@ -18,13 +18,13 @@
         <li class="nav_item"><a>Помощь</a></li>
         <li class="nav_item"><a>Контакты</a></li>
         <li class="nav_item"><button class="nav_btn">Войти</button></li>
-        <li class="nav_item"><a href="../signin.html">Зарегистрироваться</a></li>
+        <li class="nav_item"><a href="/signin.html">Зарегистрироваться</a></li>
     </ul>
 </div>
 <div class="container">
     <div class="content">
 
-        <div class="bc"><a href="../main.html">Главная</a>&nbsp;/&nbsp;<a href="">Личный кабинет участника</a>&nbsp;/&nbsp;<a href="">Участие в собраниях</a>&nbsp;/&nbsp;<a href="#">Карточка собрания</a></div>
+        <div class="bc"><a href="/main.html">Главная</a>&nbsp;/&nbsp;<a href="">Личный кабинет участника</a>&nbsp;/&nbsp;<a href="">Участие в собраниях</a>&nbsp;/&nbsp;<a href="#">Карточка собрания</a></div>
 
         <p class="heading">Карточка собрания: 1014-очное</p>
 
@@ -44,12 +44,12 @@
             <ul>
                 <li>Выберите вопрос</li>
                 <li class="dropd">Кто будет арбитражным управляющим?</li>
-                <img src="../../../img/down_arrow.svg">
+                <img src="/img/down_arrow.svg">
             </ul>
             <ul>
                 <li>Показать голосование</li>
                 <li class="dropd">Всех участников</li>
-                <img src="../../../img/down_arrow.svg">
+                <img src="/img/down_arrow.svg">
             </ul>
             <div class="tbl">
                 <table>
@@ -60,25 +60,25 @@
                         <th>Воздержался</th>
                     </tr>
                     <tr>
-                        <td class="fio">Афанасьева Елена Евгеньевна <img src="../../../img/download.svg"/></td>
+                        <td class="fio">Афанасьева Елена Евгеньевна <img src="/img/download.svg"/></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                     </tr>
                     <tr>
-                        <td class="fio">Афанасьева Елена Евгеньевна <img src="../../../img/download.svg"/></td>
+                        <td class="fio">Афанасьева Елена Евгеньевна <img src="/img/download.svg"/></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                     </tr>
                     <tr>
-                        <td class="fio">Афанасьева Елена Евгеньевна <img src="../../../img/download.svg"/></td>
+                        <td class="fio">Афанасьева Елена Евгеньевна <img src="/img/download.svg"/></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                     </tr>
                     <tr>
-                        <td class="fio">Афанасьева Елена Евгеньевна <img src="../../../img/download.svg"/></td>
+                        <td class="fio">Афанасьева Елена Евгеньевна <img src="/img/download.svg"/></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
                         <td><input type="checkbox" /></td>
@@ -90,20 +90,19 @@
 
         </div>
 
-        <div class="base_bg">
-            <div class="base">
-                <ul>
-                    <li class="base_logo"><a href="#"><img src="/img/Logo.svg" /></a></li>
-                    <li class="base_item1"><a>Выйти</a></li>
-                </ul>
-                <ul class="base_links">
-                    <li class="base_item2">Главная</li>
-                    <li class="base_item2">Реестр собраний</li>
-                    <li class="base_item2">Помощь</li>
-                    <li class="base_item2">Контакты</li>
-                </ul>
-                <p class="copyright">© 2011-2022 Оператор торговой площадки - ООО «ТендерСтандарт». Все права защищены.</p>
-            </div>
+        <div class="base_bg"></div>
+        <div class="base">
+            <ul>
+                <li class="base_logo"><a href="#"><img src="/img/Logo.svg" /></a></li>
+                <li class="base_item1"><a>Выйти</a></li>
+            </ul>
+            <ul class="base_links">
+                <li class="base_item2">Главная</li>
+                <li class="base_item2">Реестр собраний</li>
+                <li class="base_item2">Помощь</li>
+                <li class="base_item2">Контакты</li>
+            </ul>
+            <p class="copyright">© 2011-2022 Оператор торговой площадки - ООО «ТендерСтандарт». Все права защищены.</p>
         </div>
     </div>
 </div>
@@ -124,6 +123,10 @@
             $(".base_bg").animate({
                 marginTop: "1287px"
             });
+        }).click(function(){
+            $(".base").animate({
+                marginTop: "1287px"
+            });
         });
     });
     $(document).ready(function(){
@@ -133,6 +136,10 @@
             $(".show").fadeIn()
         }).click(function(){
             $(".base_bg").animate({
+                marginTop: "960px"
+            });
+        }).click(function(){
+            $(".base").animate({
                 marginTop: "960px"
             });
         });

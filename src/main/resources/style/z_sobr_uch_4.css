@@ -140,7 +140,10 @@
 }
 
 .base_bg{
-    top: 0;
+    margin-top: 816px;
+}
+
+.base{
     margin-top: 816px;
 }
 

@@ -199,6 +199,9 @@ table tr td input{
 }
 
 .base_bg{
-    top: 0;
+    margin-top: 960px;
+}
+
+.base{
     margin-top: 960px;
 }

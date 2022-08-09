@@ -241,8 +241,9 @@ input{
 }
 
 .base_bg{
-    top: 0;
     margin-top: 1300px;
 }
 
-
+.base{
+    margin-top: 1300px;
+}
