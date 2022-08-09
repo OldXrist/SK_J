@@ -95,6 +95,11 @@ h2 {
   text-align: center;
 }
 
+.signin a{
+  text-decoration: none;
+  color: #00345F;
+}
+
 .signup {
   text-decoration: none;
   position: absolute;
@@ -243,7 +248,7 @@ h2 {
   cursor: pointer;
 }
 
-.dropdown {
+.dropd {
   position: absolute;
   width: 1160px;
   height: 557px;
@@ -447,7 +452,7 @@ h2 {
   color: #406C9A;
 }
 
-.dropdown div p {
+.dropd div p {
   position: absolute;
   width: 139px;
   height: 18px;

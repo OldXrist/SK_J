@@ -88,6 +88,8 @@ body{
   height: 15px;
   margin-left: 1220px;
   top: 74px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .base_item2 {
@@ -97,6 +99,8 @@ body{
   text-align: center;
   margin-right: 20px;
   top: 118px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .copyright {
@@ -117,6 +121,8 @@ body{
 
 .base_links {
   margin-left: 460px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .base_bg {

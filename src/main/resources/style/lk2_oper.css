@@ -480,18 +480,19 @@
     height: 16px;
     left: 604px;
     top: 109px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
-
-
-    color: #104781;}
+    color: #104781;
+}
 
 .base_bg{
+    margin-top: 1372px;
+}
+
+.base{
     margin-top: 1372px;
 }
 

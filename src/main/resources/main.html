@@ -68,7 +68,7 @@
             </ul>
         </div>
 
-        <form class="dropdown">
+        <form class="dropd">
             <div>
                 <p class="drop_h">Поиск собрания</p>
                 <img src="/img/cross.png" class="cross" />
@@ -256,11 +256,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script>
     $(document).ready(function () {
-        $(".dropdown").hide()
+        $(".dropd").hide()
     })
     $(document).ready(function () {
         $(".stats_btn").click(function () {
-            $(".dropdown").slideDown();
+            $(".dropd").slideDown();
         });
     });
     $(document).ready(function () {
@@ -287,14 +287,18 @@
     $(document).ready(function () {
         $(".stats_btn").click(function () {
             $(".base_bg").animate({
-                top: "2333px"
+                marginTop: "2333px"
+            });
+        }).click(function () {
+            $(".base").animate({
+                marginTop: "2333px"
             });
         });
     });
 
     $(document).ready(function () {
         $(".cross").click(function () {
-            $(".dropdown").slideUp();
+            $(".dropd").slideUp();
         });
     });
     $(document).ready(function () {
@@ -321,7 +325,11 @@
     $(document).ready(function () {
         $(".cross").click(function () {
             $(".base_bg").animate({
-                top: "1748px"
+                marginTop: "1748px"
+            });
+        }).click(function () {
+            $(".base").animate({
+                marginTop: "1748px"
             });
         });
     });
