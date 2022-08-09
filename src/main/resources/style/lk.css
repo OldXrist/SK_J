@@ -6,7 +6,7 @@
 .ogl_l {position: absolute;
     width: 800px;
     height: 16px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 127px;
 
     font-family: 'Exo 2';
@@ -24,7 +24,7 @@
 .txt_lk {position: absolute;
     width: 259px;
     height: 38px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -40,7 +40,7 @@
 .table_lk {position: absolute;
     width: 300px;
     height: 232px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 276px;
 
     background: #BAF3FC;
@@ -123,7 +123,7 @@
 .table2 {position: absolute;
     width: 1160px;
     height: 1388px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;
@@ -132,7 +132,7 @@
 .table_uch {position: absolute;
     width: 1160px;
     height: 881px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;

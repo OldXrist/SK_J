@@ -4,7 +4,7 @@
     width: 350px;
     height: 18px;
     top: 744px;
-    margin-left: 120px;
+    margin-left: 80px;
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
@@ -117,7 +117,7 @@
 .table1 {position: absolute;
     width: 1160px;
     height: 90px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 624px;
 
     background: #BAF3FC;
@@ -127,7 +127,7 @@
     position: absolute;
     width: 1160px;
     height: 150px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 792px;
     color: #FFFFFF;
 }

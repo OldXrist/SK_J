@@ -3,7 +3,7 @@
 .zagal {position: absolute;
     width: 529px;
     height: 38px;
-    left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -19,7 +19,7 @@
 .table_bol {position: absolute;
     width: 1160px;
     height: 1775px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 276px;
 
     background: #BAF3FC;

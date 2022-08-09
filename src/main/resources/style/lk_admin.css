@@ -1,7 +1,7 @@
 .lk {position: absolute;
     width: 259px;
     height: 38px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -17,7 +17,7 @@
 .table_min {position: absolute;
     width: 375px;
     height: 232px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 276px;
 
     background: #BAF3FC;
@@ -103,7 +103,7 @@
 .table_osn {position: absolute;
     width: 1160px;
     height: 645px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;
@@ -305,7 +305,7 @@
 .table_mal {position: absolute;
     width: 1160px;
     height: 236px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;
