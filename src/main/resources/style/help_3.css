@@ -249,10 +249,6 @@ input{
     padding-left: 17px;
 }
 
-.base{
-    top: 1621px;
-}
-
 .base_bg {
-    top: 1621px;
+    margin-top: 1621px;
 }

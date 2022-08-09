@@ -549,10 +549,6 @@ content {
     background: #BAF3FC;
 }
 
-.base{
-    top: 1199px;
-}
-
 .base_bg{
-    top: 1199px;
+    margin-top: 1199px;
 }

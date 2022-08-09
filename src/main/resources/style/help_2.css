@@ -126,10 +126,6 @@
     margin-top: 15px;
 }
 
-.base{
-    top: 951px;
-}
-
 .base_bg {
-    top: 951px;
+    margin-top: 951px;
 }

@@ -229,10 +229,6 @@ input{
     color: #406C9A;
 }
 
-.base{
-    top: 2386px;
-}
-
 .base_bg {
-    top: 2386px;
+    margin-top: 2386px;
 }

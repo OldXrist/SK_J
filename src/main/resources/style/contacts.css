@@ -91,10 +91,6 @@
     margin-left: 40px;
 }
 
-.base{
-    top: 846px;
-}
-
 .base_bg {
-    top: 846px;
+    margin-top: 846px;
 }

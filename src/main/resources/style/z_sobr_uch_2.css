@@ -362,10 +362,6 @@ label{
     background: #BAF3FC;
 }
 
-.base{
-    top: 1832px;
-}
-
 .base_bg {
-    top: 1832px;
+    margin-top: 1832px;
 }

@@ -213,10 +213,6 @@
     color: #406C9A;
 }
 
-.base{
-    top: 1513px;
-}
-
 .base_bg {
-    top: 1513px;
+    margin-top: 1513px;
 }
