@@ -7,6 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -25,6 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
+    margin-left: 80px;
 }
 
 .help_menu{
@@ -36,6 +38,7 @@
     border-radius: 15px;
     padding-left: 60px;
     padding-top: 50px;
+    margin-left: 80px;
 }
 
 .help_menu ul{
@@ -60,6 +63,7 @@
     top: 543px;
     background: #BAF3FC;
     border-radius: 15px;
+    margin-left: 80px;
 }
 
 .ep p{
@@ -98,6 +102,7 @@
     top: 776px;
     background: #BAF3FC;
     border-radius: 15px;
+    margin-left: 80px;
 }
 
 .list p{
@@ -161,6 +166,7 @@
     top: 1075px;
     background: #BAF3FC;
     border-radius: 15px;
+    margin-left: 80px;
 }
 
 .ep_settings p{
