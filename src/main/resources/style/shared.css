@@ -1,7 +1,3 @@
-html, body{
-  min-height: 100%;
-}
-
 .menu {
   position: absolute;
   width: 100%;
@@ -59,15 +55,15 @@ html, body{
 
 .base {
   position: absolute;
-  width: 1160px;
+  width: 100%;
   height: 298px;
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  margin-left: 14%;
   line-height: 136.5%;
   color: #FFFFFF;
+  margin-top: 1746px;
 }
 
 .base_logo {
@@ -83,7 +79,6 @@ html, body{
 .base_item1 {
   display: inline-block;
   list-style: none;
-  position: relative;
   position: absolute;
   width: 46px;
   height: 15px;
@@ -134,7 +129,12 @@ html, body{
   color: #406C9A;
 }
 
-.ogl {position: absolute;
+.content{
+  width: 100%;
+}
+
+.ogl {
+  position: absolute;
   width: 800px;
   height: 16px;
   margin-left: 120px;

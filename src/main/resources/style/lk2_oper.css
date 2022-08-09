@@ -1,3 +1,118 @@
+.sort {
+    position: absolute;
+    padding-bottom: 30px;
+    width: 350px;
+    height: 18px;
+    top: 744px;
+    margin-left: 120px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;
+}
+
+.sort img {
+    margin-left: 10px;
+}
+.sort_drop {
+    position: absolute;
+    width: 199px;
+    height: 156px;
+    margin-left: 250px;
+    top: 775px;
+    padding: 0;
+    z-index: 1100;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 12px rgba(16, 71, 129, 0.1);
+    border-radius: 10px;
+    padding-top: 18px;
+}
+
+.sort_drop li {
+    position: relative;
+    left: 0;
+    list-style: none;
+    width: 199px;
+    height: 30px;
+    padding-left: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #406C9A;
+}
+
+.sort_drop li:hover{
+    background: #BAF3FC;
+}
+
+.decline{
+    position: absolute;
+    width: 520px;
+    height: 401px;
+    margin-left: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0531481), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0425185), 0px 20px 13px rgba(0, 0, 0, 0.035), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0274815), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0168519);
+    border-radius: 15px;
+    padding: 60px 50px;
+    z-index: 1000;
+}
+
+.decline p{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #104781;
+}
+
+.decline input{
+    width: 400px;
+    height: 150px;
+    background: #E6F5F7;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 117px;
+    padding-left: 17px;
+}
+
+.decline input:focus{
+    outline: none;
+}
+
+.decline input::placeholder{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #406C9A;
+}
+
+.decline button{
+    width: 400px;
+    height: 55px;
+    background: #37DCF5;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #00345F;
+}
 
 .table1 {position: absolute;
     width: 1160px;
@@ -376,4 +491,7 @@
 
     color: #104781;}
 
+.base_bg{
+    margin-top: 1372px;
+}
 
