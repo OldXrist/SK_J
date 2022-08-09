@@ -437,3 +437,27 @@ input{
     top: 0;
     margin-top: 1164px;
 }
+
+.dob_zaiv {position: absolute;
+    width: 450px;
+    height: 18px;
+    left: 671px;
+    top: 37px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-align: center;
+
+    color: #00345F;}
+
+.plus {    width: 40px;
+
+    margin-left: 200px;
+    margin-top: 38px;
+
+    transform: rotate(-45deg);}

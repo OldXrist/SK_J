@@ -182,3 +182,50 @@ table tr td{
     top: 0;
     margin-top: 1164px;
 }
+
+.knopka4 {position: absolute;
+    width: 340px;
+    height: 50px;
+    margin-left: 355px;
+    top: 1129px;
+
+    background: #ffffff;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka5 {position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 745px;
+    top: 1129px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    border: none;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+
+
