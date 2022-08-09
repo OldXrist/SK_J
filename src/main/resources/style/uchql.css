@@ -7,7 +7,7 @@
 .ogl {position: absolute;
     width: 800px;
     height: 16px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 127px;
 
     font-family: 'Exo 2';
@@ -73,7 +73,7 @@
 .reg_uch {position: absolute;
     width: 500px;
     height: 38px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -89,7 +89,7 @@
 .reg_uch_txt {position: absolute;
     width: 609px;
     height: 147px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 256px;
 
     font-family: 'Exo 2';
@@ -105,7 +105,7 @@
 .zaiav {position: absolute;
     width: 93px;
     height: 18px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 453px;
 
     font-family: 'Exo 2';
@@ -121,7 +121,7 @@
 .gal {position: absolute;
     width: 554px;
     height: 156px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 501px;}
 
 
@@ -243,7 +243,7 @@
     position: absolute;
     width: 1160px;
     height: 1320px;
-    margin-left: 120px;
+    margin-left: 180px;
     top: 707px;
 
     display: block;
