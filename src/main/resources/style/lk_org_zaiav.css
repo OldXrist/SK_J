@@ -19,9 +19,9 @@
 }
 
 .zaiavka {position: absolute;
-    width: 622px;
+    width: 657px;
     height: 38px;
-    left: 120px;
+    margin-left: 120px;
     top: 188px;
 
     font-family: 'Exo 2';
