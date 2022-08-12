@@ -226,7 +226,7 @@
     position: relative;
     width: 1160px;
     height: 1134px;
-    left: 120px;
+    margin-left: 80px;
     top: 707px;
 
     display: block;
@@ -747,11 +747,11 @@
 }
 
 .base{
-    margin-top: 190px;
+    margin-top: 802px;
 }
 
 .base_bg{
-    margin-top: 190px;
+    margin-top: 802px;
 }
 
 .base2 {

@@ -113,4 +113,12 @@ p{
     overflow: visible;
     color: #00345F;
     border: none;
+    padding-top: 18px;
+    padding-right: 15px;
+}
+
+#next{
+    text-align: center;
+    text-decoration: none;
+    color: #00345F;
 }
