@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .help_menu{
@@ -38,7 +38,7 @@
     border-radius: 15px;
     padding-left: 60px;
     padding-top: 50px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .help_menu ul{
@@ -63,7 +63,7 @@
     top: 543px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
     padding-top: 36px;
 }
@@ -161,7 +161,7 @@
 }
 
 .second{
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .phone{
@@ -249,10 +249,10 @@ input{
     padding-left: 17px;
 }
 
-.base{
-    top: 1621px;
+.base_bg {
+    margin-top: 1621px;
 }
 
-.base_bg {
-    top: 1621px;
+.base{
+    margin-top: 1621px;
 }

@@ -1,7 +1,7 @@
 .table_min {position: absolute;
     width: 1160px;
     height: 90px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;
@@ -12,15 +12,11 @@
     height: 18px;
     left: 60px;
     top: 36px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
 .chern_zaiav_big {position: absolute;
@@ -34,9 +30,6 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
 .table_blue1 {box-sizing: border-box;
@@ -44,7 +37,7 @@
     position: absolute;
     width: 1160px;
     height: 150px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 688px;
 
     background: #E6FBFE;
@@ -58,7 +51,7 @@
     position: absolute;
     width: 1160px;
     height: 150px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 858px;
 
     background: #E6FBFE;
@@ -116,7 +109,7 @@
     color: #406C9A;}
 
 .prav {position: absolute;
-    width: 138px;
+    width: 145px;
     height: 16px;
     left: 60px;
     top: 109px;
@@ -163,3 +156,11 @@
 
 
     color: #104781;}
+
+.base_bg{
+    margin-top: 1098px;
+}
+
+.base{
+    margin-top: 1098px;
+}

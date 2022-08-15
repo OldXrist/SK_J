@@ -7,7 +7,7 @@
 .ogl {position: absolute;
     width: 800px;
     height: 16px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 127px;
 
     font-family: 'Exo 2';
@@ -19,7 +19,6 @@
     color: #406C9A;
     text-decoration: none;
     border: none;
-
 }
 
 .gl {position: absolute;
@@ -74,7 +73,7 @@
 .reg_uch {position: absolute;
     width: 500px;
     height: 38px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -90,7 +89,7 @@
 .reg_uch_txt {position: absolute;
     width: 609px;
     height: 147px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 256px;
 
     font-family: 'Exo 2';
@@ -106,7 +105,7 @@
 .zaiav {position: absolute;
     width: 93px;
     height: 18px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 453px;
 
     font-family: 'Exo 2';
@@ -122,7 +121,7 @@
 .gal {position: absolute;
     width: 554px;
     height: 156px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 501px;}
 
 
@@ -227,7 +226,7 @@
     position: relative;
     width: 1160px;
     height: 1134px;
-    left: 120px;
+    margin-left: 80px;
     top: 707px;
 
     display: block;
@@ -244,7 +243,7 @@
     position: absolute;
     width: 1160px;
     height: 1320px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 707px;
 
     display: block;
@@ -748,11 +747,11 @@
 }
 
 .base{
-    margin-top: 190px;
+    margin-top: 802px;
 }
 
 .base_bg{
-    margin-top: 190px;
+    margin-top: 802px;
 }
 
 .base2 {

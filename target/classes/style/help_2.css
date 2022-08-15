@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .help_menu{
@@ -38,7 +38,7 @@
     border-radius: 15px;
     padding-left: 60px;
     padding-top: 50px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .help_menu ul{
@@ -63,7 +63,7 @@
     top: 543px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .ep p{
@@ -85,7 +85,7 @@
     width: 500px;
     height: 200px;
     top: 663px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .check ul li{
@@ -126,10 +126,10 @@
     margin-top: 15px;
 }
 
-.base{
-    top: 951px;
+.base_bg {
+    margin-top: 951px;
 }
 
-.base_bg {
-    top: 951px;
+.base{
+    margin-top: 951px;
 }

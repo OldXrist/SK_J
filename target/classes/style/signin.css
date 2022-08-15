@@ -9,12 +9,12 @@
     background-attachment: fixed;
 }
 
-.base{
-    top: 887px;
+.base_bg{
+    margin-top: 887px;
 }
 
-.base_bg{
-    top: 887px;
+.base{
+    margin-top: 887px;
 }
 
 h2{
@@ -113,4 +113,12 @@ p{
     overflow: visible;
     color: #00345F;
     border: none;
+    padding-top: 18px;
+    padding-right: 15px;
+}
+
+#next{
+    text-align: center;
+    text-decoration: none;
+    color: #00345F;
 }

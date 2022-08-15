@@ -3,7 +3,7 @@
 .ogl {position: absolute;
     width: 800px;
     height: 16px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 127px;
 
     font-family: 'Exo 2';
@@ -19,9 +19,9 @@
 }
 
 .zaiavka {position: absolute;
-    width: 622px;
+    width: 657px;
     height: 38px;
-    left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -37,7 +37,7 @@
 .table_org {position: absolute;
     width: 1160px;
     height: 3432px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 276px;
 
     background: #BAF3FC;
@@ -447,8 +447,8 @@
 .doks {position: absolute;
     width: 613px;
     height: 18px;
-    left: 180px;
-    top: 2617px;
+    left: 60px;
+    top: 2341px;
 
     font-family: 'Exo 2';
     font-style: normal;
@@ -559,9 +559,237 @@
     outline: none;
 }
 
+.forms7 {  padding:12px;
+    width: 700px;
+    border-radius:10px;
+    border: none;
+}
+
+.forms7:focus{
+    outline: none;
+}
+
+.knopka {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 850px;
+    top: 2549px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #00345F;
+}
+
+.dop_doks {position: absolute;
+    width: 368px;
+    height: 18px;
+    left: 60px;
+    top: 2649px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #104781;}
+
+.dop_doks_txt {position: absolute;
+    width: 425px;
+    height: 105px;
+    left: 60px;
+    top: 2697px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #406C9A;}
+
+.doks_img {position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 600px;
+    top: 2703px;}
+
+.prek_dok {position: absolute;
+    width: 194px;
+    height: 18px;
+    left: 709px;
+    top: 2719px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    text-decoration-line: underline;
+
+    color: #104781;
+}
+
+.voprosu {position: absolute;
+    width: 196px;
+    height: 18px;
+    left: 60px;
+    top: 2852px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
 
 
+    color: #104781;}
 
+.knopka2 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 60px;
+    top: 2890px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #00345F;
+}
+
+.uved {position: absolute;
+    width: 219px;
+    height: 18px;
+    left: 60px;
+    top: 2990px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+
+    color: #104781;}
+
+.nim_cod {position: absolute;
+    width: 700px;
+    height: 50px;
+    left: 60px;
+    top: 3076px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.knopka3 {position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 850px;
+    top: 3076px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #00345F;
+}
+
+.table_fio {position: absolute;
+    width: 1040px;
+    height: 100.5px;
+    left: 60px;
+    top: 3176.5px;
+    background: #BAF3FC;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+
+    color: #406C9A;
+}
+
+.table_fio tr th{
+    border: 1px solid #104781;
+    height: 50px;
+    padding: 18px;
+}
+
+.shirina {    width: 790px;
+}
+
+.uzko {    width: 250px;
+}
+
+.knopka4 {position: absolute;
+    width: 439px;
+    height: 55px;
+    left: 116px;
+    top: 3327px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    border: none;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka5 {position: absolute;
+    width: 439px;
+    height: 55px;
+    left: 605px;
+    top: 3327px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
 
 
 

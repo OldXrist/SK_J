@@ -9,12 +9,12 @@
     background-attachment: fixed;
 }
 
-.base{
-    top: 887px;
+.base_bg{
+    margin-top: 887px;
 }
 
-.base_bg{
-    top: 887px;
+.base{
+    margin-top: 887px;
 }
 
 h2{

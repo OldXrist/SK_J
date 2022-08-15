@@ -7,7 +7,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #406C9A;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .bc a{
@@ -26,7 +26,7 @@
     font-size: 32px;
     line-height: 120%;
     color: #104781;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .ep{
@@ -36,7 +36,7 @@
     top: 416px;
     background: #BAF3FC;
     border-radius: 15px;
-    margin-left: 40px;
+    margin-left: 80px;
     padding-left: 60px;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .second{
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .second li input{
@@ -148,7 +148,7 @@
 }
 
 .second_2{
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .second_2 li input{
@@ -164,7 +164,7 @@ input{
     width: 1160px;
     height: 90px;
     top: 276px;
-    margin-left: 40px;
+    margin-left: 80px;
     background: #BAF3FC;
     border-radius: 15px;
     font-family: 'Exo 2';
@@ -229,10 +229,119 @@ input{
     color: #406C9A;
 }
 
-.base{
-    top: 2386px;
+.base_bg {
+    margin-top: 2386px;
 }
 
-.base_bg {
-    top: 2386px;
+.base{
+    margin-top: 2386px;
+}
+
+.knopka4 {position: absolute;
+    width: 439px;
+    height: 55px;
+    left: 116px;
+    top: 1775px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    border: none;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka5 {position: absolute;
+    width: 439px;
+    height: 55px;
+    left: 605px;
+    top: 1775px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka6 {position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 60px;
+    top: 1775px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka7 {position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 360px;
+    top: 1775px;
+
+    background: #BAF3FC;
+    border-radius: 10px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
+}
+
+.knopka8 {position: absolute;
+    width: 440px;
+    height: 55px;
+    left: 660px;
+    top: 1775px;
+
+    background: #37DCF5;
+    border-radius: 10px;
+
+    border: none;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #00345F;
 }

@@ -1,9 +1,9 @@
 
 
 .lk {position: absolute;
-    width: 259px;
+    width: 600px;
     height: 38px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 188px;
 
     font-family: 'Exo 2';
@@ -16,7 +16,7 @@
 .table_oper {position: absolute;
     width: 375px;
     height: 298px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 276px;
 
     background: #BAF3FC;
@@ -130,7 +130,7 @@
 .table_ld {position: absolute;
     width: 1160px;
     height: 645px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 624px;
 
     background: #BAF3FC;
@@ -315,6 +315,7 @@
 .forms4:focus{
     outline: none;
 }
+
 
 
 

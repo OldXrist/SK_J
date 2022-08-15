@@ -1,7 +1,7 @@
 .table_min {position: absolute;
     width: 1160px;
     height: 90px;
-    margin-left: 120px;
+    margin-left: 80px;
     top: 558px;
 
     background: #BAF3FC;
@@ -47,7 +47,7 @@
 
 .table {
     position: absolute;
-    margin-left: 120px;
+    margin-left: 80px;
     height: 678px;
     width: 1160px;
     top: 726px;
@@ -344,4 +344,12 @@
 
 .add_drop li:hover{
     background: #BAF3FC;
+}
+
+.base_bg{
+    margin-top: 1476px;
+}
+
+.base{
+    margin-top: 1476px;
 }
