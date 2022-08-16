@@ -17,16 +17,15 @@ function Validate (){
         formData.append("PHONE", document.getElementById("form6").value);
         formData.append("EMAIL", document.getElementById("form7").value);
         $.ajax({
-            url: "http://localhost:63342/SK_J/reg_uchastnikov/reg_ql.html",
+            url: "http://localhost:63342/SK_J/reg_uchastnikov/reg_ql.html?_ijt=dfuq1474eqfttq7a4ud3k8v9rf/Servlet;/Servlet",
             method: "post",
-            data: "formData",
+            data: 'formData',
             error: function() {
                 console.log("error");
             },
             success: function() {
                 console.log("pobeda");
             }
-
         });
     }
 }
