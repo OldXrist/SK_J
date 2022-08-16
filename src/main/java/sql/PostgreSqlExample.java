@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class PostgreSqlExample {
+    private static final String INSERT_NEW="INSERT INTO dish VALUES(?,?)";
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "postgresql")) {
 
