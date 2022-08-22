@@ -27,19 +27,36 @@ function Validate_ul (){
         alert("check error");
     }
     else {
-        let formData = [
-            document.getElementById("form1").value,
-            document.getElementById("form2").value,
-            document.getElementById("form3").value,
-            document.getElementById("form4").value,
-            document.getElementById("form5").value,
-            document.getElementById("form6").value,
-            document.getElementById("form7").value
-        ];
-        $.ajax({
-            url: "http://localhost:8080/",
-            method: "get"
+        let user = {
+            inn: document.getElementById("form1").value,
+            ogrn: document.getElementById("form2").value,
+            fname: document.getElementById("form3").value,
+            uaddress: document.getElementById("form4").value,
+            zip: document.getElementById("form5").value,
+            phone: document.getElementById("form6").value,
+            email: document.getElementById("form7").value
+        };
 
+        let json = JSON.stringify(user);
+
+        $.post("http://localhost:8080/Servlets_Web_exploded/", user, function(){
+            console.log(user);
         });
+
+/*
+старый скрипт
+        $.ajax({
+            url: "http://localhost:8080/Servlets_Web_exploded/",
+            data: "user",
+            method: "post",
+            success: function () {
+                console.log(this.data)
+            },
+            error: function () {
+                console.log("error")
+            }
+        });
+
+ */
     }
 }
