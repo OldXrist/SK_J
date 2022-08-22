@@ -39,6 +39,7 @@ function Validate_ul (){
         $.ajax({
             url: "http://localhost:8080/",
             method: "get"
+
         });
     }
 }
