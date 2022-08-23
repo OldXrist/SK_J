@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
+import java.sql.*;
 
 @WebServlet("/")
 public class ULServlet extends HttpServlet {
@@ -62,5 +63,11 @@ public class ULServlet extends HttpServlet {
         String last_login = req.getParameter("last_login");
         pw.println(last_login);
         pw.close();
+
+        try{
+            String url = "";
+            String username = "postgres", password = "postgresql";
+
+        }
     }
 }
