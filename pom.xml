@@ -30,8 +30,8 @@
 
         <dependency>
             <groupId>org.postgresql</groupId>
-            <artifactId>pgjdbc-osgi-test</artifactId>
-            <version>42.3.6</version>
+            <artifactId>postgresql</artifactId>
+            <version>42.4.2</version>
         </dependency>
     </dependencies>
 
