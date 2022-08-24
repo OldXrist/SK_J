@@ -1,24 +1,24 @@
 function Validate_ul (){
-    if (document.getElementById("form1").value.length === 0){
-        document.getElementById("form1").value = 'val';
+    if (document.getElementById("inn").value.length === 0){
+        document.getElementById("inn").value = 'val';
     }
-    if (document.getElementById("form2").value.length === 0){
-        document.getElementById("form2").value = 'val';
+    if (document.getElementById("ogrn").value.length === 0){
+        document.getElementById("ogrn").value = 'val';
     }
-    if (document.getElementById("form3").value.length === 0){
-        document.getElementById("form3").value = 'val';
+    if (document.getElementById("poln_naim").value.length === 0){
+        document.getElementById("poln_naim").value = 'val';
     }
-    if (document.getElementById("form4").value.length === 0){
-        document.getElementById("form4").value = 'val';
+    if (document.getElementById("ur_addr").value.length === 0){
+        document.getElementById("ur_addr").value = 'val';
     }
-    if (document.getElementById("form5").value.length === 0){
-        document.getElementById("form5").value = 'val';
+    if (document.getElementById("pocht_adres").value.length === 0){
+        document.getElementById("pocht_adres").value = 'val';
     }
-    if (document.getElementById("form6").value.length === 0){
-        document.getElementById("form6").value = 'val';
+    if (document.getElementById("phone").value.length === 0){
+        document.getElementById("phone").value = 'val';
     }
-    if (document.getElementById("form7").value.length === 0){
-        document.getElementById("form7").value = 'val';
+    if (document.getElementById("email").value.length === 0){
+        document.getElementById("email").value = 'val';
     }
     if (document.getElementById("form8").value.length === 0){
         document.getElementById("form8").value = 'val';
