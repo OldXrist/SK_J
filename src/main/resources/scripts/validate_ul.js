@@ -30,36 +30,18 @@ function Validate_ul (){
         let user = {
             type_users: "Участник",
             role_users: "ЮЛ",
-            unn: document.getElementById("form1").value,
-            code_ogrn: document.getElementById("form2").value,
-            poln_naim: document.getElementById("form3").value,
-            qr_adrs: document.getElementById("form4").value,
-            pocht_adres: document.getElementById("form5").value,
-            telephon: document.getElementById("form6").value,
-            email: document.getElementById("form7").value,
+            unn: document.getElementById("inn").value,
+            code_ogrn: document.getElementById("ogrn").value,
+            poln_naim: document.getElementById("poln_naim").value,
+            qr_adrs: document.getElementById("ur_addr").value,
+            pocht_adres: document.getElementById("pocht_adres").value,
+            telephon: document.getElementById("phone").value,
+            email: document.getElementById("email").value,
             reg_date: Date
         };
-
-        let json = JSON.stringify(user);
 
         $.post("http://localhost:8080/Servlets_Web_exploded/", user, function(){
             console.log(user);
         });
-
-/*
-старый скрипт
-        $.ajax({
-            url: "http://localhost:8080/Servlets_Web_exploded/",
-            data: "user",
-            method: "post",
-            success: function () {
-                console.log(this.data)
-            },
-            error: function () {
-                console.log("error")
-            }
-        });
-
- */
     }
 }
