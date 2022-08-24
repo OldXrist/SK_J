@@ -20,6 +20,27 @@ function Validate_ul (){
     if (document.getElementById("email").value.length === 0){
         document.getElementById("email").value = 'val';
     }
+    if (document.getElementById("ogrnip").value.length === 0){
+        document.getElementById("ogrnip").value = 'val';
+    }
+    if (document.getElementById("famil").value.length === 0){
+        document.getElementById("famil").value = 'val';
+    }
+    if (document.getElementById("name").value.length === 0){
+        document.getElementById("name").value = 'val';
+    }
+    if (document.getElementById("otch").value.length === 0){
+        document.getElementById("otch").value = 'val';
+    }
+    if (document.getElementById("snils").value.length === 0){
+        document.getElementById("snils").value = 'val';
+    }
+    if (document.getElementById("reg_nomer_au").value.length === 0){
+        document.getElementById("reg_nomer_au").value = 'val';
+    }
+    if (document.getElementById("ogl").value.length === 0){
+        document.getElementById("ogl").value = 'val';
+    }
     if (document.getElementById("form8").value.length === 0){
         document.getElementById("form8").value = 'val';
     }
