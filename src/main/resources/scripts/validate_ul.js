@@ -53,9 +53,16 @@ function Validate_ul (){
         alert("check error");
     }
     else {
+
+        const ogl = document.getElementById("ogl").innerHTML;
+        const words = ogl.split(' ');
+        let t = words[1];
+        let type = t.substring(0, (t.length - 1));
+        let role = words[2];
+
         let user = {
-            type_users: "Участник",
-            role_users: "ЮЛ",
+            type_users: type,
+            role_users: role,
             unn: document.getElementById("inn").value,
             code_ogrn: document.getElementById("ogrn").value,
             poln_naim: document.getElementById("poln_naim").value,

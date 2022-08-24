@@ -262,6 +262,10 @@ input{
     border-color: #FFFFFF;
 }
 
+input::placeholder{
+    color: #406C9A;
+}
+
 .forms {
     padding:12px;
     width: 400px;
