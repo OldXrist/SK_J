@@ -70,6 +70,13 @@ function Validate_ul (){
             pocht_adres: document.getElementById("pocht_adres").value,
             telephon: document.getElementById("phone").value,
             email: document.getElementById("email").value,
+            ogrnip: document.getElementById("ogrnip").value,
+            famil: document.getElementById("famil").value,
+            name: document.getElementById("name").value,
+            otch: document.getElementById("otch").value,
+            snils: document.getElementById("snils").value,
+            reg_nomer_au: document.getElementById("reg_nomer_au").value,
+
             reg_date: Date
         };
 
