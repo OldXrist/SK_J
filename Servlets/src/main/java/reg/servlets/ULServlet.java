@@ -9,31 +9,27 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.sql.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @WebServlet("/")
 public class ULServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        PrintWriter pw = new PrintWriter("C:\\Users\\manager\\Desktop\\SK_J\\Servlets\\src\\main\\popa.txt", StandardCharsets.UTF_8);
-
         String type_users = req.getParameter("type_users");
         String role_users = req.getParameter("role_users");
 
         String unn = req.getParameter("unn");
         int inn = Integer.parseInt(unn);
 
-        String data_vudochi = req.getParameter("data_vudochi");
-        String pass = req.getParameter("pass");
-        String reg_date = req.getParameter("reg_date");
-        String last_login = req.getParameter("last_login");
-        pw.close();
-
         try{
             Connection c = DriverManager.getConnection("jdbc:postgresql://192.168.1.115/postgres", "postgres", "postgresql");
 
-            String sql = "INSERT INTO reg Values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, '2004-10-19 10:23:54+02', '2004-10-19 10:23:54+02')";
+            String sql = "INSERT INTO reg Values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement ps = c.prepareStatement(sql);
+
+
             ps.setString(1, type_users);
             ps.setString(2, role_users);
             ps.setInt(3, inn);
@@ -94,39 +90,49 @@ public class ULServlet extends HttpServlet {
                 ps.setString(13, pocht_adres);
             } else ps.setNull(13, Types.VARCHAR);
 
+            String telephon = req.getParameter("telephon");
+            if (telephon != null) {
+                int phone = Integer.parseInt(telephon);
+                ps.setInt(14, phone);
+            } else ps.setNull(14, Types.BIGINT);
+
             String naim_org = req.getParameter("naim_org");
-            if (naim_org != null) {
-                ps.setString(14, naim_org);
-            } else ps.setNull(14, Types.VARCHAR);
+            if (naim_org != null){
+                int naim = Integer.parseInt(naim_org);
+                ps.setInt(15, naim);
+            } else ps.setNull(15, Types.BIGINT);
 
             String email = req.getParameter("email");
             if (email != null) {
-                ps.setString(15, email);
-            } else ps.setNull(15, Types.VARCHAR);
+                ps.setString(16, email);
+            } else ps.setNull(16, Types.VARCHAR);
 
             String seria = req.getParameter("seria");
             if (seria != null) {
                 int ser = Integer.parseInt(seria);
-                ps.setInt(16, ser);
-            } else ps.setNull(16, Types.BIGINT);
+                ps.setInt(17, ser);
+            } else ps.setNull(17, Types.BIGINT);
 
             String nomer = req.getParameter("nomer");
             if (nomer != null) {
                 int num = Integer.parseInt(nomer);
-                ps.setInt(17, num);
-            } else ps.setNull(17, Types.BIGINT);
-
-            String telephon = req.getParameter("telephon");
-            if (telephon != null) {
-                int phone = Integer.parseInt(telephon);
-                ps.setInt(18, phone);
+                ps.setInt(18, num);
             } else ps.setNull(18, Types.BIGINT);
-            ps.setDate(19, '11.11.1111');
+
+            LocalDate ld = LocalDate.now();
+            ps.setObject(19, ld);
+
             String kem_vudan = req.getParameter("kem_vudan");
             if (kem_vudan != null) {
                 ps.setString(20, kem_vudan);
             } else ps.setNull(20, Types.VARCHAR);
-        //    ps.setString(21, pass);
+
+            ps.setString(21, "pass");
+
+            LocalDateTime ldt = LocalDateTime.now();
+            ps.setObject(22, ldt);
+
+            ps.setObject(23, ldt);
 
             ps.executeUpdate();
 

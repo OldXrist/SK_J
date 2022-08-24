@@ -61,26 +61,8 @@ function Validate_ul (){
             reg_date: Date
         };
 
-        let json = JSON.stringify(user);
-
         $.post("http://localhost:8080/Servlets_Web_exploded/", user, function(){
             console.log(user);
         });
-
-/*
-старый скрипт
-        $.ajax({
-            url: "http://localhost:8080/Servlets_Web_exploded/",
-            data: "user",
-            method: "post",
-            success: function () {
-                console.log(this.data)
-            },
-            error: function () {
-                console.log("error")
-            }
-        });
-
- */
     }
 }
