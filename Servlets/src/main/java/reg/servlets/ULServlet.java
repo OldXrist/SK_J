@@ -23,11 +23,7 @@ public class ULServlet extends HttpServlet {
         String unn = req.getParameter("unn");
         int inn = Integer.parseInt(unn);
 
-        String telephon = req.getParameter("telephon");
-        int phone = Integer.parseInt(telephon);
-
         String data_vudochi = req.getParameter("data_vudochi");
-        String kem_vudan = req.getParameter("kem_vudan");
         String pass = req.getParameter("pass");
         String reg_date = req.getParameter("reg_date");
         String last_login = req.getParameter("last_login");
@@ -36,7 +32,7 @@ public class ULServlet extends HttpServlet {
         try{
             Connection c = DriverManager.getConnection("jdbc:postgresql://192.168.1.115/postgres", "postgres", "postgresql");
 
-            String sql = "INSERT INTO reg Values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, '11.11.1111', ?, ?, '2004-10-19 10:23:54+02', '2004-10-19 10:23:54+02')";
+            String sql = "INSERT INTO reg Values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, '2004-10-19 10:23:54+02', '2004-10-19 10:23:54+02')";
             PreparedStatement ps = c.prepareStatement(sql);
             ps.setString(1, type_users);
             ps.setString(2, role_users);
@@ -118,10 +114,18 @@ public class ULServlet extends HttpServlet {
             if (nomer != null) {
                 int num = Integer.parseInt(nomer);
                 ps.setInt(17, num);
-            } else 
-            ps.setInt(18, phone);
-        //    ps.setString(19, data_vudochi);
-            ps.setString(20, kem_vudan);
+            } else ps.setNull(17, Types.BIGINT);
+
+            String telephon = req.getParameter("telephon");
+            if (telephon != null) {
+                int phone = Integer.parseInt(telephon);
+                ps.setInt(18, phone);
+            } else ps.setNull(18, Types.BIGINT);
+            ps.setDate(19, '11.11.1111');
+            String kem_vudan = req.getParameter("kem_vudan");
+            if (kem_vudan != null) {
+                ps.setString(20, kem_vudan);
+            } else ps.setNull(20, Types.VARCHAR);
         //    ps.setString(21, pass);
 
             ps.executeUpdate();
