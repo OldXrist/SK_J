@@ -23,14 +23,6 @@ public class ULServlet extends HttpServlet {
         String unn = req.getParameter("unn");
         int inn = Integer.parseInt(unn);
 
-        String email = req.getParameter("email");
-
-        String seria = req.getParameter("seria");
-        int ser = Integer.parseInt(seria);
-
-        String nomer = req.getParameter("nomer");
-        int num = Integer.parseInt(nomer);
-
         String telephon = req.getParameter("telephon");
         int phone = Integer.parseInt(telephon);
 
@@ -110,10 +102,23 @@ public class ULServlet extends HttpServlet {
             if (naim_org != null) {
                 ps.setString(14, naim_org);
             } else ps.setNull(14, Types.VARCHAR);
-            
-            ps.setString(15, email);
-            ps.setInt(16, ser);
-            ps.setInt(17, num);
+
+            String email = req.getParameter("email");
+            if (email != null) {
+                ps.setString(15, email);
+            } else ps.setNull(15, Types.VARCHAR);
+
+            String seria = req.getParameter("seria");
+            if (seria != null) {
+                int ser = Integer.parseInt(seria);
+                ps.setInt(16, ser);
+            } else ps.setNull(16, Types.BIGINT);
+
+            String nomer = req.getParameter("nomer");
+            if (nomer != null) {
+                int num = Integer.parseInt(nomer);
+                ps.setInt(17, num);
+            } else 
             ps.setInt(18, phone);
         //    ps.setString(19, data_vudochi);
             ps.setString(20, kem_vudan);
