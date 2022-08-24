@@ -38,6 +38,9 @@ function Validate_ul (){
     if (document.getElementById("reg_nomer_au").value.length === 0){
         document.getElementById("reg_nomer_au").value = 'val';
     }
+    if (document.getElementById("ogl").value.length === 0){
+        document.getElementById("ogl").value = 'val';
+    }
     if (document.getElementById("form8").value.length === 0){
         document.getElementById("form8").value = 'val';
     }
