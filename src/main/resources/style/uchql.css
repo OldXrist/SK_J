@@ -1,144 +1,122 @@
 
-
 .content {
     width: 100%;
 }
 
-.ogl {position: absolute;
+.ogl {
+    position: absolute;
     width: 800px;
     height: 16px;
     margin-left: 80px;
     top: 127px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-
     color: #406C9A;
     text-decoration: none;
     border: none;
 }
 
-.gl {position: absolute;
+.gl {
+    position: absolute;
     width: 59px;
     height: 16px;
     left: 120px;
     top: 127px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
-
-
     color: #406C9A;}
 
-.reg_new {position: absolute;
+.reg_new {
+    position: absolute;
     width: 261px;
     height: 16px;
     left: 198px;
     top: 127px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
-
-
     color: #406C9A;
 }
 
-.uch_sbor_ql{position: absolute;
+.uch_sbor_ql{
+    position: absolute;
     width: 350px;
     height: 16px;
     left: 478px;
     top: 127px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
-
-
     color: #406C9A;}
 
-.reg_uch {position: absolute;
+.reg_uch {
+    position: absolute;
     width: 500px;
     height: 38px;
     margin-left: 80px;
     top: 188px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
-    /* or 38px */
-
-
     color: #104781;}
 
-.reg_uch_txt {position: absolute;
+.reg_uch_txt {
+    position: absolute;
     width: 609px;
     height: 147px;
     margin-left: 80px;
     top: 256px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    /* or 21px */
-
-
     color: #406C9A;}
 
-.zaiav {position: absolute;
+.zaiav {
+    position: absolute;
     width: 93px;
     height: 18px;
     margin-left: 80px;
     top: 453px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
-.gal {position: absolute;
+.gal {
+    position: absolute;
     width: 554px;
     height: 156px;
     margin-left: 80px;
-    top: 501px;}
+    top: 501px;
+}
 
 
 .gal_txt1 {position: absolute;
     width: 463px;
     height: 42px;
     left: 25px;
-    top: 0px;
-
+    top: 0;
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    /* or 21px */
-
-
     color: #406C9A;}
 
 .gal_txt2 {position: absolute;
@@ -152,10 +130,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    /* or 21px */
-
-
-    color: #406C9A;}
+    color: #406C9A;
+}
 
 .gal_txt3 {position: absolute;
     width: 527px;
@@ -168,10 +144,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    /* or 21px */
-
-
-
     color: #406C9A;}
 
 .kub1 {position: absolute;
@@ -208,46 +180,34 @@
     height: 18px;
     left: 60px;
     top: 50px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-
     color: #104781;}
 
 .table1 {
-
     box-sizing: border-box;
-
     position: relative;
     width: 1160px;
     height: 1134px;
     margin-left: 80px;
     top: 707px;
-
     display: block;
-
     background: #BAF3FC;
     border-radius: 15px;
 
 }
 
 .table2 {
-
     box-sizing: border-box;
-
     position: absolute;
     width: 1160px;
     height: 1320px;
     margin-left: 80px;
     top: 707px;
-
     display: block;
-
     background: #BAF3FC;
     border-radius: 15px;
 
@@ -259,7 +219,6 @@
     height: 50px;
     left: 60px;
     top: 136px;
-
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -270,7 +229,6 @@
     height: 50px;
     left: 60px;
     top: 136px;
-
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -281,7 +239,6 @@
     height: 50px;
     left: 410px;
     top: 136px;
-
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -290,9 +247,8 @@
     position: absolute;
     width: 400px;
     height: 18px;
-    left: 0px;
+    left: 0;
     top: -40px;
-
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 400;
@@ -301,21 +257,26 @@
     color: #406C9A;
 }
 
-.forms {  padding:12px;
+input{
+    border-style:solid;
+    border-color: #FFFFFF;
+}
+
+.forms {
+    padding:12px;
     width: 400px;
     border-radius:10px;
-    border: none;
 }
 
 .forms:focus{
     outline: none;
 }
 
-
-.forms2 {  padding:12px;
+.forms2 {
+    padding:12px;
     width: 1040px;
     border-radius:10px;
-    border: none;
+
 }
 
 .forms2:focus{
@@ -326,7 +287,7 @@
 .forms3 {  padding:12px;
     width: 590px;
     border-radius:10px;
-    border: none;
+
 }
 
 .forms3:focus{
@@ -338,7 +299,7 @@
     padding:12px;
     width: 300px;
     border-radius:10px;
-    border: none;
+
 
 }
 .forms4:focus{
