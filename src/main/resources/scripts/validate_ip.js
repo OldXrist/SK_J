@@ -1,4 +1,5 @@
-function Validate_ul () {
+/*
+function Validate_ip () {
 
     let k = 0;
 
@@ -109,87 +110,28 @@ function Validate_ul () {
         let type = t.substring(0, (t.length - 1));
         let role = words[2];
 
-        if (role === 'ЮЛ') {
-            let user = {
-                type_users: type,
-                role_users: role,
-                unn: document.getElementById("inn").value,
-                code_ogrn: document.getElementById("ogrn").value,
-                poln_naim: document.getElementById("poln_naim").value,
-                qr_adrs: document.getElementById("ur_addr").value,
-                pocht_adres: document.getElementById("pocht_adres").value,
-                telephon: document.getElementById("phone").value,
-                email: document.getElementById("email").value,
-                reg_date: Date
-            };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
-                console.log(user);
-            });
-        } else if (role === 'ИП'){
-            let user = {
-                type_users: type,
-                role_users: role,
-                unn: document.getElementById("inn").value,
-                telephon: document.getElementById("phone").value,
-                email: document.getElementById("email").value,
-                ogrnip: document.getElementById("ogrnip").value,
-                famil: document.getElementById("famil").value,
-                name: document.getElementById("name").value,
-                otch: document.getElementById("otch").value,
-                snils: document.getElementById("snils").value,
-                seria: document.getElementById("ser").value,
-                nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vudan"),
-                reg_date: Date
-            };
+        let user = {
+            type_users: type,
+            role_users: role,
+            unn: document.getElementById("inn").value,
+            telephon: document.getElementById("phone").value,
+            email: document.getElementById("email").value,
+            ogrnip: document.getElementById("ogrnip").value,
+            famil: document.getElementById("famil").value,
+            name: document.getElementById("name").value,
+            otch: document.getElementById("otch").value,
+            snils: document.getElementById("snils").value,
+            seria: document.getElementById("ser").value,
+            nomer: document.getElementById("num").value,
+            kem_vidan: document.getElementById("kem_vudan"),
+            reg_date: Date
+        };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
-                console.log(user);
-            });
-        } else if (role === 'ФЛ') {
-            let user = {
-                type_users: type,
-                role_users: role,
-                unn: document.getElementById("inn").value,
-                pocht_adres: document.getElementById("pocht_adres").value,
-                telephon: document.getElementById("phone").value,
-                email: document.getElementById("email").value,
-                famil: document.getElementById("famil").value,
-                name: document.getElementById("name").value,
-                otch: document.getElementById("otch").value,
-                snils: document.getElementById("snils").value,
-                seria: document.getElementById("ser").value,
-                nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan"),
-                reg_date: Date
-            };
-
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
-                console.log(user);
-            });
-        } else {
-            let user = {
-                type_users: type,
-                role_users: role,
-                unn: document.getElementById("inn").value,
-                pocht_adres: document.getElementById("pocht_adres").value,
-                telephon: document.getElementById("phone").value,
-                email: document.getElementById("email").value,
-                famil: document.getElementById("famil").value,
-                name: document.getElementById("name").value,
-                otch: document.getElementById("otch").value,
-                snils: document.getElementById("snils").value,
-                seria: document.getElementById("ser").value,
-                nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan"),
-                reg_nomer_au: document.getElementById("reg_nomer_au").value,
-                reg_date: Date
-            };
-
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
-                console.log(user);
-            });
-        }
+        $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
+            console.log(user);
+        });
     }
 }
+
+ */
