@@ -5,7 +5,7 @@ function selectOnlyThis(id) {
 
     const links = [
         "reg_uchastnikov/reg_ql.html",
-        "reg_uchastnikov/reg_ip.html",
+        "reg_uchastnikov/reg_ip2.html",
         "reg_uchastnikov/reg_fl.html",
         "reg_organizatorov/reg_org_ql.html",
         "reg_organizatorov/reg_org_ip.html",
