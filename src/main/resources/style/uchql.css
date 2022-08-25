@@ -260,6 +260,12 @@
 input{
     border-style:solid;
     border-color: #FFFFFF;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #406C9A;
 }
 
 input::placeholder{

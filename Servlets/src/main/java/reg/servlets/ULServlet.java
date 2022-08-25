@@ -19,7 +19,7 @@ public class ULServlet extends HttpServlet {
         String role_users = req.getParameter("role_users");
 
         String unn = req.getParameter("unn");
-        int inn = Integer.parseInt(unn);
+        long inn = Long.parseLong(unn);
 
         try{
             Connection c = DriverManager.getConnection("jdbc:postgresql://192.168.1.115/postgres", "postgres", "postgresql");
@@ -30,12 +30,12 @@ public class ULServlet extends HttpServlet {
 
             ps.setString(1, type_users);
             ps.setString(2, role_users);
-            ps.setInt(3, inn);
+            ps.setLong(3, inn);
 
             String snils = req.getParameter("snils");
             if (snils != null) {
-                int isnils = Integer.parseInt(snils);
-                ps.setInt(4, isnils);
+                long isnils = Long.parseLong(snils);
+                ps.setLong(4, isnils);
             } else ps.setNull(4, Types.BIGINT);
 
 
@@ -48,14 +48,14 @@ public class ULServlet extends HttpServlet {
 
             String code_ogrn = req.getParameter("code_ogrn");
             if (code_ogrn != null) {
-                int ogrn = Integer.parseInt(code_ogrn);
-                ps.setInt(6, ogrn);
+                 long ogrn = Long.parseLong(code_ogrn);
+                ps.setLong(6, ogrn);
             } else ps.setNull(6, Types.BIGINT);
 
             String code_ogrnip = req.getParameter("code_ogrnip");
             if (code_ogrnip != null) {
-                int ogrnip = Integer.parseInt(code_ogrnip);
-                ps.setInt(7, ogrnip);
+                long ogrnip = Long.parseLong(code_ogrnip);
+                ps.setLong(7, ogrnip);
             } else ps.setNull(7, Types.BIGINT);
 
             String famil = req.getParameter("famil");
@@ -90,9 +90,8 @@ public class ULServlet extends HttpServlet {
 
             String telephon = req.getParameter("telephon");
             if (telephon != null) {
-                int phone = Integer.parseInt(telephon);
-                ps.setInt(14, phone);
-            } else ps.setNull(14, Types.BIGINT);
+                ps.setString(14, telephon);
+            } else ps.setNull(14, Types.VARCHAR);
 
             String naim_org = req.getParameter("naim_org");
             if (naim_org != null){
@@ -120,7 +119,7 @@ public class ULServlet extends HttpServlet {
             LocalDate ld = LocalDate.now();
             ps.setObject(19, ld);
 
-            String kem_vudan = req.getParameter("kem_vudan");
+            String kem_vudan = req.getParameter("kem_vidan");
             if (kem_vudan != null) {
                 ps.setString(20, kem_vudan);
             } else ps.setNull(20, Types.VARCHAR);
