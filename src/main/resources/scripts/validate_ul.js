@@ -141,7 +141,7 @@ function Validate_ul () {
                 pocht_adres: document.getElementById("pocht_adres").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vudan"),
+                kem_vidan: document.getElementById("kem_vudan").value,
                 reg_date: Date
             };
 
@@ -162,7 +162,7 @@ function Validate_ul () {
                 snils: document.getElementById("snils").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan"),
+                kem_vidan: document.getElementById("kem_vidan").value,
                 reg_date: Date
             };
 
@@ -183,7 +183,7 @@ function Validate_ul () {
                 snils: document.getElementById("snils").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan"),
+                kem_vidan: document.getElementById("kem_vidan").value,
                 reg_nomer_au: document.getElementById("reg_nomer_au").value,
                 reg_date: Date
             };
