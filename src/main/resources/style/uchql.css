@@ -316,6 +316,16 @@ input::placeholder{
     outline: none;
 }
 
+.forms5 {
+    padding:12px;
+    width: 340px;
+    border-radius:10px;
+
+
+}
+.forms5:focus{
+    outline: none;
+}
 
 .codorg {position: absolute;
     width: 590px;
