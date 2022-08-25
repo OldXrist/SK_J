@@ -138,6 +138,7 @@ function Validate_ul () {
                 name: document.getElementById("name").value,
                 otch: document.getElementById("otch").value,
                 snils: document.getElementById("snils").value,
+                pocht_adres: document.getElementById("pocht_adres").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
                 kem_vidan: document.getElementById("kem_vudan"),
