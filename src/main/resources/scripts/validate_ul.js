@@ -20,6 +20,11 @@ function Validate_ul () {
         document.getElementById("poln_naim").style.borderColor = 'red';
         k += 1;
     }
+    if (document.getElementById("naim_org") === null) {
+    } else if (document.getElementById("naim_org").value.length === 0) {
+        document.getElementById("naim_org").style.borderColor = 'red';
+        k += 1;
+    }
     if (document.getElementById("ur_addr") === null) {
     } else if (document.getElementById("ur_addr").value.length === 0) {
         document.getElementById("ur_addr").style.borderColor = 'red';
@@ -33,7 +38,9 @@ function Validate_ul () {
         document.getElementById("phone").style.borderColor = 'red';
         k += 1;
     }
-    if (document.getElementById("email").value.length === 0) {
+    if (document.getElementById("email").value.length === 0 ||
+        !document.getElementById("email").value.includes("@") ||
+        document.getElementById("email").value.includes("..")) {
         document.getElementById("email").style.borderColor = 'red';
         k += 1;
     }
@@ -45,13 +52,13 @@ function Validate_ul () {
     }
     if (document.getElementById("ser") === null) {
     } else if (document.getElementById("ser").value.length === 0 ||
-        document.getElementById("ser").value.length !== 4) {
+        document.getElementById("ser").value.length !== 5) {
         document.getElementById("ser").style.borderColor = 'red';
         k += 1;
     }
     if (document.getElementById("num") === null) {
     } else if (document.getElementById("num").value.length === 0 ||
-        document.getElementById("num").value.length !== 6) {
+        document.getElementById("num").value.length !== 7) {
         document.getElementById("num").style.borderColor = 'red';
         k += 1;
     }
@@ -90,7 +97,8 @@ function Validate_ul () {
         document.getElementById("reg_nomer_au").style.borderColor = 'red';
         k += 1;
     }
-    if (document.getElementById("email_2").value.length === 0) {
+    if (document.getElementById("email_2").value.length === 0 ||
+        document.getElementById("email_2").value !== document.getElementById("email").value) {
         document.getElementById("email_2").style.borderColor = 'red';
         k += 1;
     } else if (
@@ -183,7 +191,8 @@ function Validate_ul () {
                 snils: document.getElementById("snils").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan").value,
+                naim_org: document.getElementById("naim_org").value,
+                kem_vidan: document.getElementById("kem_vudan").value,
                 reg_nomer_au: document.getElementById("reg_nomer_au").value,
                 reg_date: Date
             };

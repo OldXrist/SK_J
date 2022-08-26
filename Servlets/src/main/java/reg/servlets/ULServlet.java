@@ -34,14 +34,21 @@ public class ULServlet extends HttpServlet {
 
             String snils = req.getParameter("snils");
             if (snils != null) {
-                long isnils = Long.parseLong(snils);
+                String[] snl = snils.split(" ");
+                String snil = "";
+                for (int i = 0; i < 4; i++){
+                    snil += snl[i];
+                }
+                long isnils = Long.parseLong(snil);
                 ps.setLong(4, isnils);
             } else ps.setNull(4, Types.BIGINT);
 
 
-            String reg_nomer_ay = req.getParameter("reg_nomer_ay");
+            String reg_nomer_ay = req.getParameter("reg_nomer_au");
             if (reg_nomer_ay != null) {
-                int reg_nom = Integer.parseInt(reg_nomer_ay);
+                String[] r_n = reg_nomer_ay.split(" ");
+                String reg = r_n[0] + r_n[1];
+                int reg_nom = Integer.parseInt(reg);
                 ps.setInt(5, reg_nom);
             } else ps.setNull(5, Types.BIGINT);
 
@@ -95,9 +102,8 @@ public class ULServlet extends HttpServlet {
 
             String naim_org = req.getParameter("naim_org");
             if (naim_org != null){
-                int naim = Integer.parseInt(naim_org);
-                ps.setInt(15, naim);
-            } else ps.setNull(15, Types.BIGINT);
+                ps.setString(15, naim_org);
+            } else ps.setNull(15, Types.VARCHAR);
 
             String email = req.getParameter("email");
             if (email != null) {
@@ -106,13 +112,17 @@ public class ULServlet extends HttpServlet {
 
             String seria = req.getParameter("seria");
             if (seria != null) {
-                int ser = Integer.parseInt(seria);
+                String[] s = seria.split(" ");
+                String se = s[0] + s[1];
+                int ser = Integer.parseInt(se);
                 ps.setInt(17, ser);
             } else ps.setNull(17, Types.BIGINT);
 
             String nomer = req.getParameter("nomer");
             if (nomer != null) {
-                int num = Integer.parseInt(nomer);
+                String[] n = nomer.split(" ");
+                String nom = n[0] + n[1];
+                int num = Integer.parseInt(nom);
                 ps.setInt(18, num);
             } else ps.setNull(18, Types.BIGINT);
 
