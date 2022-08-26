@@ -8,6 +8,7 @@
           <element id="module-output" name="Servlets" />
         </element>
       </element>
+      <element id="artifact" artifact-name="Servlets" />
     </root>
   </artifact>
 </component>
