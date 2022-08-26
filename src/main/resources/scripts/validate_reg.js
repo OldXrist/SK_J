@@ -1,4 +1,4 @@
-function Validate_ul () {
+function Validate_reg () {
 
     let k = 0;
 
@@ -131,7 +131,7 @@ function Validate_ul () {
                 reg_date: Date
             };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
+            $.post("http://localhost:8080/Servlets_Web_exploded/ULServ", user, function () {
                 console.log(user);
             });
         } else if (role === 'ИП'){
@@ -153,7 +153,7 @@ function Validate_ul () {
                 reg_date: Date
             };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
+            $.post("http://localhost:8080/Servlets_Web_exploded/ULServ", user, function () {
                 console.log(user);
             });
         } else if (role === 'ФЛ') {
@@ -174,7 +174,7 @@ function Validate_ul () {
                 reg_date: Date
             };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
+            $.post("http://localhost:8080/Servlets_Web_exploded/ULServ", user, function () {
                 console.log(user);
             });
         } else {
@@ -197,7 +197,7 @@ function Validate_ul () {
                 reg_date: Date
             };
 
-            $.post("http://localhost:8080/Servlets_Web_exploded/", user, function () {
+            $.post("http://localhost:8080/Servlets_Web_exploded/ULServ", user, function () {
                 console.log(user);
             });
         }

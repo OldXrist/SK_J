@@ -690,7 +690,8 @@ input::placeholder{
     top: 1066px;
 }
 
-.prikrepit-dokument {position: absolute;
+.prikrepit-dokument {
+    position: absolute;
     width: 194px;
     height: 18px;
     left: 709px;
@@ -706,6 +707,14 @@ input::placeholder{
     text-decoration-line: underline;
 
     color: #104781;
+}
+
+#file{
+    display: none;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .prikrepit-dokument2 {

@@ -10,7 +10,7 @@ import java.sql.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-@WebServlet("/")
+@WebServlet("/ULServ")
 public class ULServlet extends HttpServlet {
 
     @Override
