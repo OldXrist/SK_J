@@ -198,6 +198,15 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
+.unn2 {position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 60px;
+    top: 372px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
 .snils {position: absolute;
     width: 590px;
     height: 50px;
@@ -207,8 +216,28 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
-.telefon {position: absolute;
+.snils2 {position: absolute;
     width: 300px;
+    height: 50px;
+    left: 410px;
+    top: 372px;
+
+    background: #FFFFFF;
+    border-radius: 10px;}
+
+.ogrnip {
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 760px;
+    top: 372px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.telefon {position: absolute;
+    width: 400px;
     height: 50px;
     left: 60px;
     top: 490px;
@@ -217,22 +246,14 @@
     border-radius: 10px;}
 
 .email {position: absolute;
-    width: 300px;
+    width: 590px;
     height: 50px;
-    left: 410px;
+    left: 510px;
     top: 490px;
 
     background: #FFFFFF;
     border-radius: 10px;}
 
-.email2 {position: absolute;
-    width: 340px;
-    height: 50px;
-    left: 760px;
-    top: 490px;
-
-    background: #FFFFFF;
-    border-radius: 10px;}
 
 .new_pas {position: absolute;
     width: 400px;
@@ -290,21 +311,24 @@
     background: #FFFFFF;
     border-radius: 10px;}
 
-.forms {  padding:12px;
+.forms {
+    padding:12px;
     width: 400px;
     border-radius:10px;
-    border: none;
+    border: white;
+
 }
 
 .forms:focus{
     outline: none;
 }
 
-
-.forms2 {  padding:12px;
+.forms2 {
+    padding:12px;
     width: 1040px;
     border-radius:10px;
-    border: none;
+    border: white;
+
 }
 
 .forms2:focus{
@@ -315,7 +339,8 @@
 .forms3 {  padding:12px;
     width: 590px;
     border-radius:10px;
-    border: none;
+    border: white;
+
 }
 
 .forms3:focus{
@@ -331,6 +356,18 @@
 
 }
 .forms4:focus{
+    outline: none;
+}
+
+.forms5 {
+    padding:12px;
+    width: 340px;
+    border-radius:10px;
+    border: white;
+
+
+}
+.forms5:focus{
     outline: none;
 }
 
