@@ -170,7 +170,7 @@ function Validate_reg () {
                 snils: document.getElementById("snils").value,
                 seria: document.getElementById("ser").value,
                 nomer: document.getElementById("num").value,
-                kem_vidan: document.getElementById("kem_vidan").value,
+                kem_vidan: document.getElementById("kem_vudan").value,
                 reg_date: Date
             };
 
