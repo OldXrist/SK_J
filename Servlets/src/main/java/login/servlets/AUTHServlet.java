@@ -40,11 +40,11 @@ public class AUTHServlet extends HttpServlet {
                 String y = rs.getString(2);
                 pw.println(rs.getObject(1));
                 pw.println(rs.getString(2));
-                if (x.equals(email) & y.equals(pwd)) {
+                if (x != null & y != null) {
                     pw.println("success");
                 } else if (!rs.next()){
                     pw.println("denied");
-                }pw.println("denied");
+                }
             }
 
             rs.close();
