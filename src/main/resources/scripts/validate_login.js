@@ -19,7 +19,7 @@ function Validate_login(){
         }
 
 
-        $.post("http://localhost:8080/Servlets_Web_exploded/AUTHServ", creds, function () {
+        $.get("http://localhost:8080/Servlets_Web_exploded/AUTHServ", creds, function () {
             console.log(creds);
         });
     }
