@@ -1,1 +1,3 @@
-denied
+qwer@mail.ru
+pass
+success
