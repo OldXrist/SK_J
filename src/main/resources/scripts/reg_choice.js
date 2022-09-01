@@ -13,7 +13,7 @@ function selectOnlyThis(id) {
         "reg_organizatorov/reg_org_ay.html"
     ]
 
-    document.getElementById(id).checked = true;
+    document.getElementById(id).checked = true;
 
     for (let i = 1; i <= 7; i++){
         if (id === "check" + i){
