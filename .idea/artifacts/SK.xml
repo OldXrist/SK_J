@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SK">
+    <output-path>$PROJECT_DIR$/out/artifacts/SK</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="Servlets:Web exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SK_J" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:2.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.json:jakarta.json-api:2.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.mail:jakarta.mail-api:2.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.security.enterprise:jakarta.security.enterprise-api:3.0.0" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:pgjdbc-osgi-test:42.3.6" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.4.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.22" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SK_J/web/Web" />
+    </root>
+  </artifact>
+</component>
